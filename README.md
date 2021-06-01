@@ -1,7 +1,7 @@
-# PagerDuty Security Training [![Build Status](https://circleci.com/gh/PagerDuty/security-training/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/security-training)
-This is a public version of the Security Training material used internally at PagerDuty for our annual employee security training.
+# Haekka fork of PagerDuty Security Training [![Build Status](https://circleci.com/gh/PagerDuty/security-training/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/security-training)
+The is a fork of the the Security Training material used internally at PagerDuty for our annual employee security training. PagerDuty offers this training as Open Source. The repo structure have been updated by Haekka to import into the Haekka platform. The content, by and large, has not been changed.
 
-You can view the content [directly](/docs/index.md) in this repository, or rendered as a website at https://sudo.pagerduty.com.
+The original, PagerDuty content is here - https://sudo.pagerduty.com.
 
 [![PagerDuty Security Training](screenshot.png)](https://sudo.pagerduty.com)
 
@@ -15,8 +15,8 @@ For local development on your native device,
 1. Install [MkDocs PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). `pip install pymdown-extensions`
 1. Install [Pygments](https://pygments.org/) if you want syntax highlighting for any code examples. `pip install pygments`
 1. Install the [PagerDuty MkDocs Theme](https://github.com/pagerduty/mkdocs-theme-pagerduty).
-    1. `git clone https://github.com/pagerduty/mkdocs-theme-pagerduty`
-    1. `cd mkdocs-theme-pagerduty & python3 setup.py install`
+	1. `git clone https://github.com/pagerduty/mkdocs-theme-pagerduty`
+	1. `cd mkdocs-theme-pagerduty & python3 setup.py install`
 1. To test locally, run `mkdocs serve` from the project directory.
 1. You can now view the website in your browser at `http://127.0.0.1:8000`. The site will automatically update as you edit the code.
 
@@ -33,10 +33,10 @@ _Note: If you're using an Apple Silicon device, add `--platform linux/arm64/v8` 
 1. Run `mkdocs build --clean` to produce the static site for upload.
 1. Upload the `site` directory to S3 (or wherever you would like it to be hosted).
 
-        aws s3 sync ./site/ s3://[BUCKET_NAME] \
-          --acl public-read \
-          --exclude "*.py*" \
-          --delete
+		aws s3 sync ./site/ s3://[BUCKET_NAME] \
+		  --acl public-read \
+		  --exclude "*.py*" \
+		  --delete
 
 ## License
 [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) (See [LICENSE](LICENSE) file)
