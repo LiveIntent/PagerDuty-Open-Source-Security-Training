@@ -23,7 +23,6 @@ Importantly, we never want to fake security. Faking security leads us down a dar
 
 External resources:
 
-
 ### Introduction
 
 <input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
@@ -138,3 +137,18 @@ Any security provided by these locks are now ineffective. You might still deter 
 Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modem. Google ["ARRIS modem backdoor"](https://encrypted.google.com/search?q=ARRIS+modem+backdoor) if you want to read about one example.
 
 Hopefully you're starting to see why faking security is a bad thing, and something we want to stay away from.
+
+---
+
+Lesson Scenario:
+What is security theater?
+
+- <input type="checkbox"> `This is a production house in London focused on digital forensic stories.`
+- <input type="checkbox"> `This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. `
+- <input type="checkbox"> `Similar to broadway, these are high quality theatrical productions focused on cybersecurity.`
+- <input type="checkbox"> `As a security exercise, this is where small groups act out real world security scenarios.`
+
+<div class="reveal-answer">
+	<button class="button">Reveal Answer</button>
+	<blockquote><p>Security theater is purely for show and does not improve security.
+</p></blockquote>
