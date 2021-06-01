@@ -11,6 +11,19 @@ Lesson Notes:
 
 Lesson Content:
 
+Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can.
+
+The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
+
+There's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. 
+
+Importantly, we never want to fake security. Faking security leads us down a dark path, and will give us a false sense of security. 
+
+---
+
+External resources:
+
+
 ### Introduction
 
 <input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
@@ -69,7 +82,7 @@ The point I'm trying to make is that there's a trade-off between security and co
 <input type="checkbox" id="011" /><label for="011">![011](../slides/for_everyone/for_everyone.011.jpeg)</label>
 _011. Be secure, but usable._
 
-Our job is to strike a good balance between the options. We want to make sure that PagerDuty as a product, and as an office environment, is both secure and usable. Our goal is not to add friction to your day-to-day jobs, but we can't sit entirely at the convenience end of the scale either. So while we may force you into following certain procedures, please know that it's not because we like annoying you, but it's because we don't really have a choice.
+Our job is to strike a good balance between the options. We want to make sure that our products and services, and as an office environment, is both secure and usable. Our goal is not to add friction to your day-to-day jobs, but we can't sit entirely at the convenience end of the scale either. So while we may force you into following certain procedures, please know that it's not because we like annoying you, but it's because we don't really have a choice.
 
 ---
 
