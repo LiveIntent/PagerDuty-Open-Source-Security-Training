@@ -78,15 +78,14 @@ As with anything security related, if you're not sure if you've encountered a so
 ---
 
 Lesson Scenario:
-What are some of the warning signs for phishing emails?
+What should you do if you receive an email you think might be a phishing email?
 
-- <input type="checkbox"> `Attachments, especially .zip files.`
-- <input type="checkbox"> `Mispelled domains. `
-- <input type="checkbox"> `Strange greetings, like "Dear Customer", that are not personalized. `
-- <input type="checkbox"> `Domain names that are not the official domain of the sender company.`
-- <input type="checkbox"> `All of the above.`
+- <input type="checkbox"> `Reply to the email to verify the sender.`
+- <input type="checkbox"> `Click the link in the email to check if it's a real website. `
+- <input type="checkbox"> `Call, Slack, or reach out to the sender but not via email. `
+- <input type="checkbox"> `Forward the email to your group to see if they got the same one.`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>There are red flags that should alert you to a potential phishing email. All of the above answers are red flags.
+	<blockquote><p>If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
 </p></blockquote> 
