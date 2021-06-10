@@ -17,6 +17,8 @@ Finally, remember to **never click on any links in a mail you think may be phish
 
 Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
 
+As with anything security related, if you're not sure if you've encountered a social engineering attack, or if you're curious to know more, just ask.
+
 ---
 
 External resources:
