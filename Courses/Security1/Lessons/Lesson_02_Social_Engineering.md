@@ -13,11 +13,11 @@ Lesson Content:
 
 Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+So if someone contacts you claiming to be an employee, and you've never heard of them before, verify they are who they say they are via another channel. If they email you, ping them on Slack to check (and vice versa).
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
+The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information.
 
-Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
+Social engineering isn't just about phishing, even though that's the focus in this training. There are many more types of social engineering attacks we can face.
 
 ---
 

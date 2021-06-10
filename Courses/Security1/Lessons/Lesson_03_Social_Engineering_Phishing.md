@@ -11,13 +11,14 @@ Lesson Notes:
 
 Lesson Content:
 
-Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
+Phishing attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+Some red flags to look for:
+* A yellow flag in that it said "Dear Customer", most emails now will be personalized with your name if they know it.
+* A red flag in that there's a `.zip` attachment for an invoice, as these would typically be a PDF.
+* Misspelled domains like DocuSgn instead of DocuSign
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
-
-Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
+More targeted phishing attacks are called "[Spear Phishing](https://en.wikipedia.org/wiki/Phishing#Spear_phishing)". An attacker spends a lot of time learning about crafting a legitimate looking email in order to try and get lots of money from us. These are the types of attacks we care the most about protecting against.
 
 ---
 
