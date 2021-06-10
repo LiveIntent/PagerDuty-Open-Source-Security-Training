@@ -4,16 +4,14 @@ Lesson 4 | Social Engineering Protect Yourself
 ---
 
 Lesson Notes:
-:dart: Social engineering is convincing people to give up information either without them realizing it, or by making them believe you're someone else.
+:dart: Remain vigilant. Social engineering attacks are constant and dynamic.
 :dart: Social engineering is mostly about building trust.
 
 ---
 
 Lesson Content:
 
-Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
-
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc). Especially if money is involved!
 
 Finally, remember to **never click on any links in a mail you think may be phishing**.
 

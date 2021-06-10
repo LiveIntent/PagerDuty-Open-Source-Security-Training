@@ -4,8 +4,8 @@ Lesson 3 | Social Engineering Phishing
 ---
 
 Lesson Notes:
-:dart: Social engineering is convincing people to give up information either without them realizing it, or by making them believe you're someone else.
-:dart: Social engineering is mostly about building trust.
+:dart: Phishing attacks are the most common form of social engineering.
+:dart: There are signs that should make you suspicious of phishing attacks, learn the ones in this training.
 
 ---
 

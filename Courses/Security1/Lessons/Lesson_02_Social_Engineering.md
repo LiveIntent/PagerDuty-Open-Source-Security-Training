@@ -100,7 +100,7 @@ These are all interesting to see, but the type of attack we care most about are 
 Lesson Scenario:
 What is social engineering?
 
-- <input type="checkbox"> `It is the same as phishing`
+- <input type="checkbox"> `Phishing is the only type of social engineering`
 - <input type="checkbox"> `It is about building trust `
 - <input type="checkbox"> `It's not something you need to worry about`
 - <input type="checkbox"> `Social engineering is an uncommon form of attack`
