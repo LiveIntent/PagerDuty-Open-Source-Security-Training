@@ -98,15 +98,14 @@ These are all interesting to see, but the type of attack we care most about are 
 ---
 
 Lesson Scenario:
-What are some of the warning signs for phishing emails?
+What is social engineering?
 
-- <input type="checkbox"> `Attachments, especially .zip files.`
-- <input type="checkbox"> `Mispelled domains. `
-- <input type="checkbox"> `Strange greetings, like "Dear Customer", that are not personalized. `
-- <input type="checkbox"> `Domain names that are not the official domain of the sender company.`
-- <input type="checkbox"> `All of the above.`
+- <input type="checkbox"> `It is the same as phishing`
+- <input type="checkbox"> `It is about building trust `
+- <input type="checkbox"> `It's not something you need to worry about`
+- <input type="checkbox"> `Social engineering is an uncommon form of attack`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>There are red flags that should alert you to a potential phishing email. All of the above answers are red flags.
+	<blockquote><p>Social engineering includes many different types of attacks and is highly common. It is about building trust.
 </p></blockquote> 
