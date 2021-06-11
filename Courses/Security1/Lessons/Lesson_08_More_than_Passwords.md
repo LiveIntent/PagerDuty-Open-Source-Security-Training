@@ -5,20 +5,18 @@ Lesson 7 | More than Passwords
 ---
 
 Lesson Notes:
-:dart: Social engineering is convincing people to give up information either without them realizing it, or by making them believe you're someone else.
-:dart: Social engineering is mostly about building trust.
+:dart: In addition to passwords, many sites use password equivalents like security questions. Never complete these questions with real information.
+:dart: Use two-factor authentication on all of your accounts.
 
 ---
 
 Lesson Content:
 
-Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
+There's some things that are basically the same as your password. For example, security question answers. If I have that information, I can likely gain access to your account as if I had your password. You should never, ever, under any circumstances use real information.
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+The idea of two-factor authentication is that you pick two of these factors, and require them in order to authenticate a user. While an attacker might be able to remotely steal your password, it's pretty unlikely they'd also be able to physically steal your phone or get a fingerprint. Likewise, if an attacker can physically steal your phone, it's unlikely they'd also be able to get your password.
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
-
-Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
+The big takeaway from all this, is to make sure you use two-factor authentication wherever it's available. 
 
 ---
 
@@ -138,8 +136,6 @@ _105. Yubikeys._
 
 We use Yubikeys for the most part, they're a little USB device with a touch sensitive contact on one side. You just plug it in and touch the button to verify the "something you have" factor. The majority of folks find this to be the most convenient two-factor method we offer, although you're welcome to use any of the other two-factor methods available to you if you prefer those. The only one we don't allow is SMS, since there are some security issues with it. But if you prefer to use the 6 digit code from Google Authenticator, you're more than welcome to use those.
 
-All PagerDuty issued Yubikeys are yours to keep, so you can feel free to use them for personal accounts if you like (Google, Facebook, Dropbox, etc). If you have a personal Yubikey already, we're also more than happy to register it in our system so you can use it for your PagerDuty accounts, it may require us to reprogram it and lose some of your existing configuration though. We can work with you to limit the impact.
-
 ---
 
 ### Use Two-Factor Authentication
@@ -147,20 +143,19 @@ All PagerDuty issued Yubikeys are yours to keep, so you can feel free to use the
 <input type="checkbox" id="106" /><label for="106">![106](../slides/for_everyone/for_everyone.106.jpeg)</label>
 _106. Use two-factor authentication._
 
-The big takeaway from all this, is to make sure you use two-factor authentication wherever it's available. All PagerDuty systems enforce two-factor authentication, so you should already be used to it here. But you should use it for all your personal stuff too. GMail, Facebook, Dropbox, GitHub, Amazon, etc. They all have two-factor authentication options available.
+The big takeaway from all this, is to make sure you use two-factor authentication wherever it's available. But you should use it for all your personal stuff too. GMail, Facebook, Dropbox, GitHub, Amazon, etc. They all have two-factor authentication options available.
 
 ---
 
 Lesson Scenario:
-What are some of the warning signs for phishing emails?
+What is a password equivalent?
 
-- <input type="checkbox"> `Attachments, especially .zip files.`
-- <input type="checkbox"> `Mispelled domains. `
-- <input type="checkbox"> `Strange greetings, like "Dear Customer", that are not personalized. `
-- <input type="checkbox"> `Domain names that are not the official domain of the sender company.`
-- <input type="checkbox"> `All of the above.`
+- <input type="checkbox"> `A second factor of authentication`
+- <input type="checkbox"> `A hardware key`
+- <input type="checkbox"> `Information that can be used to gain access to your account even without a password`
+- <input type="checkbox"> `MD5 hashing string`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>There are red flags that should alert you to a potential phishing email. All of the above answers are red flags.
+	<blockquote><p>Passwords equivalent is information, such as a security question, that can be used to access your account even if you don't have a password.
 </p></blockquote> 
