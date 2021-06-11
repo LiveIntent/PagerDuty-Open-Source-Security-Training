@@ -5,21 +5,23 @@ Lesson 6 | Passwords 1
 ---
 
 Lesson Notes:
-:dart: Social engineering is convincing people to give up information either without them realizing it, or by making them believe you're someone else.
-:dart: Social engineering is mostly about building trust.
+:dart: Passwords are a huge part of ensuring you protect yourself online.
+:dart: Passwords are protected when stored but cracking them is easier than you’d think.
 
 ---
 
 Lesson Content:
 
-Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
+Hashing is the process of taking a password, doing "stuff" to it, and giving you a magic string of characters at the end. Hashing is 1) repeatable and 2) irreversible. Website store your passwords as these magic strings.
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+But, there are easy ways to crack magic string passwords. There are things called "Rainbow Tables", in our parlance, "Magic Lists". There are massive files that have the full collection of magic strings for all sorts of situations.
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
+So what happens when these passwords leaks take place? Generally, once an attacker has stolen a database, they'll run it against those "Magic Lists" to produce a list of email and password combinations.
 
-Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
+Most people reuse their email and password combinations for other things. So the attacker will start logging into all the other accounts they can, whether it's to steal information, or money. This can all be done _very_ quickly after a database is stolen. It's usually months before the breach is known, by which point it's already too late.
 
+The point I'm trying to make is that you can't control another website's security. 
+ 
 ---
 
 External resources:
@@ -140,7 +142,7 @@ Except that's what we're going to do now...
 <input type="checkbox" id="058" /><label for="058">![058](../slides/for_everyone/for_everyone.058.jpeg)</label>
 _058. EvilCorp customer database._
 
-Last night I went ahead and stole a customer database. Doesn't matter where I got it from. For all you know this could be the PagerDuty customer database, after all I'm an engineer who has access to that, aren't I? (It's not, but if that scared you for a moment, then you should familiarize yourself with our access control policies).
+Last night I went ahead and stole a customer database. Doesn't matter where I got it from. 
 
 This stolen database contains usernames, password hashes (that's the magic string), and a password hint. Some of you may be thinking that the password hint is cheating here. Websites don't store password hints, right? Well, some do. But you're right, most don't. So you can think of them as "Answers to Security Questions" if it makes you feel better (I'll talk more about security questions later).
 
@@ -376,15 +378,15 @@ The point I'm trying to make is that you can't control another website's securit
 ---
 
 Lesson Scenario:
-What are some of the warning signs for phishing emails?
+What are the 2 unique traits of hashing passwords?
 
-- <input type="checkbox"> `Attachments, especially .zip files.`
-- <input type="checkbox"> `Mispelled domains. `
-- <input type="checkbox"> `Strange greetings, like "Dear Customer", that are not personalized. `
-- <input type="checkbox"> `Domain names that are not the official domain of the sender company.`
-- <input type="checkbox"> `All of the above.`
+- <input type="checkbox"> `Repeatable`
+- <input type="checkbox"> `Unrepeatable`
+- <input type="checkbox"> `Irreversible`
+- <input type="checkbox"> `Proprietary`
+- <input type="checkbox"> `CPU intensive.`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>There are red flags that should alert you to a potential phishing email. All of the above answers are red flags.
+	<blockquote><p>Hashing is repeatable and irreversible.
 </p></blockquote> 
