@@ -5,20 +5,22 @@ Lesson 7 | Passwords Best Practices
 ---
 
 Lesson Notes:
-:dart: Social engineering is convincing people to give up information either without them realizing it, or by making them believe you're someone else.
-:dart: Social engineering is mostly about building trust.
+:dart: You should make passwords 1) long, 2) random, 3) unique, and 4) private.
+:dart: Do not reuse passwords, instead use a password manager for all of your passwords.
 
 ---
 
 Lesson Content:
 
-Here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Social engineering is mostly about building trust. This is hard to defend against, since human nature is to want to help others.
+First, your passwords should be long. Current Department of Defense standards recommend 15 or more characters for your password. I recommend 50 or more. 
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. These attacks have become very sophisticated and targeted but there are signs to spot these fake emails. If you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc).
+Next, your passwords also need to be random. You need to make them completely random, and humans are very bad at random.
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
+Your passwords should be completely unique. Every single account you have should get its own password, and you shouldn't follow patterns.
 
-Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
+Finally, your passwords are private. Never ever share them with anyone.
+
+So how do you remember all the passwords? You don't. You need to use a tool called a "Password Manager". There are lots out there, and you've probably heard of a lot of them. "[LastPass](https://www.lastpass.com/)", "[1Password](https://1password.com/)", "[KeePass](https://keepass.info/)", etc. 
 
 ---
 
@@ -242,15 +244,15 @@ Another tip is to type out the password lots of times in a text editor, in order
 ---
 
 Lesson Scenario:
-What are some of the warning signs for phishing emails?
+What are the characteristics of strong passwords?
 
-- <input type="checkbox"> `Attachments, especially .zip files.`
-- <input type="checkbox"> `Mispelled domains. `
-- <input type="checkbox"> `Strange greetings, like "Dear Customer", that are not personalized. `
-- <input type="checkbox"> `Domain names that are not the official domain of the sender company.`
-- <input type="checkbox"> `All of the above.`
+- <input type="checkbox"> `Long`
+- <input type="checkbox"> `Foreign language`
+- <input type="checkbox"> `Unique`
+- <input type="checkbox"> `Private`
+- <input type="checkbox"> `Random`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>There are red flags that should alert you to a potential phishing email. All of the above answers are red flags.
+	<blockquote><p>Protect yourself with passwords that are long, unique, random, and private.
 </p></blockquote> 
