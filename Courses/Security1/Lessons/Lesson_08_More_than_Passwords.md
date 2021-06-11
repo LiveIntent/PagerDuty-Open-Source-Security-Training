@@ -1,6 +1,6 @@
 
 Title:
-Lesson 6 | Passwords 1
+Lesson 7 | More than Passwords
 
 ---
 
