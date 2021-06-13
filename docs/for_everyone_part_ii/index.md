@@ -1,30 +1,30 @@
 ---
 style: slides
-cover: slides/for_everyone_part_ii/for_everyone_part_ii.001.jpeg
+cover: slides/for\_everyone\_part\_ii/for\_everyone\_part\_ii.001.jpeg
 description: This is an open-source version of 'Security Training for Everyone (Part II)', the second installment of PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program.
-pdf: /assets/pdf/pagerduty_security_training_for_everyone_part_ii_public.pdf
-keynote: /assets/keynote/pagerduty_security_training_for_everyone_part_ii_public.key
+pdf: /assets/pdf/pagerduty\_security\_training\_for\_everyone\_part\_ii\_public.pdf
+keynote: /assets/keynote/pagerduty\_security\_training\_for\_everyone\_part\_ii\_public.key
 ---
 
 !!! info "Security Training for Everyone  (Part II)"
-    This is an [open-source](https://github.com/pagerduty/security-training) version of "Security Training for Everyone (Part II)", the second installment of PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program. This training was first delivered to our employees in 2019.
-
-    As with our [previous training](/for_everyone), we designed this course to not only cover common security topics relevant to all staff, but also to teach staff new skills and methods of bypassing security in order to try and give insight into the perspective of the attacker. We feel strongly that learning about security is more fun when you're shown how attackers break things instead of just blindly listing rules to follow.
-
-    The main topics covered in this training are,
-
-      * **[Cyber Threats](#cyber-threats)** - _The types of threats we focus our efforts on. Primarily phishing attacks and how to spot them._
-      * **[Passwords](#passwords)** - _A quick recap on how to handle passwords. This is discussed in more detail in our [previous training](/for_everyone#passwords)._
-      * **[Two-Factor Authentication](#two-factor-authentication)** - _An overview of what 2FA is, and the good (and not so good) ways of using it._
-      * **[Identity](#identity)** - _Why ID badges might not be as secure as you think, and other topics related to physical security._
-      * **[Data Handling](#data)** - _The different types of data we have and how to properly handle that data._
-      * **[Compliance](#compliance)** - _What compliance is, and how it can improve our lives._
-
-    While some of the material we present internally contains sensitive PagerDuty information, the majority consists of generic security lessons, presented in a light-hearted and informative way. Many employees asked for a version of the training they could share with friends and family. This site is the culmination of our efforts to do just that.
-
-    Some slides have been modified from those originally presented internally so that we could lower the classification and release them without redacting entire slides. Any substantive modifications are called out in the notes, but most of the changes were simply to remove links to internal documentation and tooling.
-
-    The text presented here is a semi-accurate transcription of how the training was delivered to staff internally.
+	This is an [open-source](https://github.com/pagerduty/security-training) version of "Security Training for Everyone (Part II)", the second installment of PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program. This training was first delivered to our employees in 2019.
+	
+	As with our [previous training](/for_everyone), we designed this course to not only cover common security topics relevant to all staff, but also to teach staff new skills and methods of bypassing security in order to try and give insight into the perspective of the attacker. We feel strongly that learning about security is more fun when you're shown how attackers break things instead of just blindly listing rules to follow.
+	
+	The main topics covered in this training are,
+	
+	  * **[Cyber Threats](#cyber-threats)** - _The types of threats we focus our efforts on. Primarily phishing attacks and how to spot them._
+	  * **[Passwords](#passwords)** - _A quick recap on how to handle passwords. This is discussed in more detail in our [previous training](/for_everyone#passwords)._
+	  * **[Two-Factor Authentication](#two-factor-authentication)** - _An overview of what 2FA is, and the good (and not so good) ways of using it._
+	  * **[Identity](#identity)** - _Why ID badges might not be as secure as you think, and other topics related to physical security._
+	  * **[Data Handling](#data)** - _The different types of data we have and how to properly handle that data._
+	  * **[Compliance](#compliance)** - _What compliance is, and how it can improve our lives._
+	
+	While some of the material we present internally contains sensitive PagerDuty information, the majority consists of generic security lessons, presented in a light-hearted and informative way. Many employees asked for a version of the training they could share with friends and family. This site is the culmination of our efforts to do just that.
+	
+	Some slides have been modified from those originally presented internally so that we could lower the classification and release them without redacting entire slides. Any substantive modifications are called out in the notes, but most of the changes were simply to remove links to internal documentation and tooling.
+	
+	The text presented here is a semi-accurate transcription of how the training was delivered to staff internally.
 
 ---
 
@@ -81,7 +81,7 @@ _004. Purple._
 This year's colour is purple. So please remember purple. You'll be tested on this and I can't believe I have to say this, but spelling is important. If you get the spelling wrong I have to go and manually approve your answers so please at least try to spell it properly.
 
 ???+ comment "Presenter's Comment"
-    Predictably, employees decided to fill in the answers by misspelling "purple" as creatively as possible. My favourite was someone who responded `#A020F0`. Of course we failed them for getting the wrong shade of purple. They're now undergoing our very special week-long security training, which consists mainly of unskippable cringeworthy videos and tedious quizzes.
+	Predictably, employees decided to fill in the answers by misspelling "purple" as creatively as possible. My favourite was someone who responded `#A020F0`. Of course we failed them for getting the wrong shade of purple. They're now undergoing our very special week-long security training, which consists mainly of unskippable cringeworthy videos and tedious quizzes.
 
 ---
 
@@ -91,7 +91,7 @@ This year's colour is purple. So please remember purple. You'll be tested on thi
 _006. Redacted slide._
 
 ???+ warning "Redacted Content"
-    This slide showed the PagerDuty security team, who they are, and how to contact them (Slack, email, carrier pigeon, etc). We'd rather not provide a lookup table of the security team for the world to see, so this slide is not available in the public version of our training. If you want to see the complete slide, you'll just need to [get a job at PagerDuty](https://www.pagerduty.com/careers).
+	This slide showed the PagerDuty security team, who they are, and how to contact them (Slack, email, carrier pigeon, etc). We'd rather not provide a lookup table of the security team for the world to see, so this slide is not available in the public version of our training. If you want to see the complete slide, you'll just need to [get a job at PagerDuty](https://www.pagerduty.com/careers).
 
 ---
 
@@ -255,9 +255,6 @@ _018. The cyber threat has a mustache now._
 
 Place you bets now on whether I'll be fired for making this slide.
 
-???+ comment "Presenter's Comment"
-    I wasn't.
-
 ---
 
 ### "Jennifer Tejada"
@@ -275,7 +272,7 @@ Of course, I'm talking about _this_ Jennifer Tejada. By far and away the most ph
 _020-021. Unique phishing attempts reported to us._
 
 ???+ warning "Redacted Content"
-    Two slides were redacted here. They showed time-based graphs of the number of phishing attacks we detected last year, and then how many of them were from folks pretending to be our CEO. The figures on the graphs are considered internal-only information, and so these slides have been redacted.
+	Two slides were redacted here. They showed time-based graphs of the number of phishing attacks we detected last year, and then how many of them were from folks pretending to be our CEO. The figures on the graphs are considered internal-only information, and so these slides have been redacted.
 
 ---
 
@@ -320,7 +317,7 @@ _025. A phishing email we received._
 So we're going to look at a much more targeted email now. This was an email sent to an employee in our London office and I love it because it has an example of pretty much every red flag and technique that phishing scammers love to use. It's almost as if they knew I was doing this training soon and wanted to give me a great single example of everything.
 
 ???+ warning "Redacted Content"
-    Sensitive information from the email has been redacted with black boxes as opposed to redacting the entire slides. The redacted content is the name of the employee this email was sent to, and the name of legal counsel. All other information remains unaltered.
+	Sensitive information from the email has been redacted with black boxes as opposed to redacting the entire slides. The redacted content is the name of the employee this email was sent to, and the name of legal counsel. All other information remains unaltered.
 
 ---
 
@@ -467,7 +464,7 @@ _035. Reporting phishing._
 This is all documented on the wiki, so I'm going to go through this pretty quickly, but to report phishing to us please don't just forward the email. If you do, we're just going to reply with a link to the wiki and ask you to follow these instructions anyway.
 
 ???+ warning "Redacted Content"
-    Links to our internal wiki have been redacted from these slides with a black box. No other information was altered.
+	Links to our internal wiki have been redacted from these slides with a black box. No other information was altered.
 
 ---
 
@@ -660,7 +657,7 @@ _052. Password + TOTP = ?_
 Let's start with a password and putting in a six digit number from your phone. 2FA or not 2FA?
 
 ???+ comment ""
-    Audience shouts "Yes" with great enthusiasm!
+	Audience shouts "Yes" with great enthusiasm!
 
 ---
 
@@ -681,7 +678,7 @@ _054. Password + Yubikey = ?_
 What about a password and a USB key (such as a [YubiKey](https://www.yubico.com/products/yubikey-hardware/) or [SoloKey](https://solokeys.com/))?
 
 ???+ comment ""
-    Audience begrudgingly shouts "Yes".
+	Audience begrudgingly shouts "Yes".
 
 ---
 
@@ -702,7 +699,7 @@ _056. Fingerprint + FaceID = ?_
 OK, so what about fingerprint and FaceID?
 
 ???+ comment ""
-    Some "Yes"'s, some grumbles, a few looks of confusion.
+	Some "Yes"'s, some grumbles, a few looks of confusion.
 
 ---
 
@@ -723,7 +720,7 @@ _058. Password + Security Question = ?_
 What about a password and an answer to some security questions?
 
 ???+ comment ""
-    Enthusiastic shouts of "NO!" from the audience.
+	Enthusiastic shouts of "NO!" from the audience.
 
 ---
 
@@ -748,7 +745,7 @@ _060. Password + SMS = ?_
 OK, final one, what about password and an SMS text message?
 
 ???+ comment ""
-    "YES!" from the audience. Falling right into my trap!
+	"YES!" from the audience. Falling right into my trap!
 
 ---
 
@@ -804,7 +801,7 @@ What I was going to do at this point was show you a cool demo with this antenna 
 But on the advice of legal counsel... the demo was banned for being far too awesome... and quite probably illegal. So I'm sorry about that.
 
 ???+ comment "Presenter's Comment"
-    I really did bring in an antenna and some SDR software on my laptop. While I didn't do a live demo, I did let people come up after the training to play with it to see the types of things you can do with it.
+	I really did bring in an antenna and some SDR software on my laptop. While I didn't do a live demo, I did let people come up after the training to play with it to see the types of things you can do with it.
 
 ---
 
@@ -854,7 +851,7 @@ _070. Wireshark reading SMS. [Reference](https://www.ckn.io/blog/2015/11/29/gsm-
 I'm obviously not encouraging any of you to go and try that out, and definitely won't be providing any of those links you just saw.
 
 ???+ comment "Presenter's Comment"
-    It's probably becoming clear why I'm not a lawyer.
+	It's probably becoming clear why I'm not a lawyer.
 
 Although, I'm sorry, I've lied to you a little bit there, you can't actually decrypt messages out of the air without a decryption key, which you can only get from the SIM card.
 
@@ -877,11 +874,11 @@ _072. SIMspy. [Reference](https://domonkos.tomcsanyi.net/?p=369)_
 And then use a tool called [SIMspy](http://www.nobbi.com/simspy/simspy.html) to extract the encryption key. Definitely also not possible.
 
 ???+ comment "Presenter's Comment"
-    While this is all very possible, it's only for GSM signals that use frequencies within the range of whatever SDR device you have. Europeans are likely to have more luck in trying this out for themselves, since GSM is more ubiquitous there than in North America (GSM was developed in Europe after all).
-
-    The weakness here is merely that the encryption key can be extracted from the SIM card. Once you have the key, it shouldn't really surprise anyone that you can decrypt the signals. This "demo" was chosen as the result is more compelling to see than other more serious vulnerabilities in mobile communications.
-
-    There are certainly vulnerabilities in the encryption methods used by GSM (the A5 algorithms), but those are not the subject of this discussion. You can [read more about GSM security (and history) from the Wikipedia article](https://en.wikipedia.org/wiki/GSM#GSM_security).
+	While this is all very possible, it's only for GSM signals that use frequencies within the range of whatever SDR device you have. Europeans are likely to have more luck in trying this out for themselves, since GSM is more ubiquitous there than in North America (GSM was developed in Europe after all).
+	
+	The weakness here is merely that the encryption key can be extracted from the SIM card. Once you have the key, it shouldn't really surprise anyone that you can decrypt the signals. This "demo" was chosen as the result is more compelling to see than other more serious vulnerabilities in mobile communications.
+	
+	There are certainly vulnerabilities in the encryption methods used by GSM (the A5 algorithms), but those are not the subject of this discussion. You can [read more about GSM security (and history) from the Wikipedia article](https://en.wikipedia.org/wiki/GSM#GSM_security).
 
 ---
 
@@ -897,7 +894,7 @@ But the more security minded of you in the audience are probably thinking, "Wait
 So while that was just a bit of fun, the method I showed isn't the real reason why SMS is insecure. Don't get me wrong, there are other ways you can try to decode GSM signals, but even then, that's just GSM. There are other technologies such as [CDMA](https://en.wikipedia.org/wiki/Code-division_multiple_access) that work differently.
 
 ???+ comment "Presenter's Comment"
-    There are also methods such as using an [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher), where you essentially set up a fake mobile tower in between your target's device and the real towers for the phone company. Your target then connects to your tower instead of the real one, and you can eavesdrop on all their communications.
+	There are also methods such as using an [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher), where you essentially set up a fake mobile tower in between your target's device and the real towers for the phone company. Your target then connects to your tower instead of the real one, and you can eavesdrop on all their communications.
 
 ---
 
@@ -920,7 +917,7 @@ Unfortunately, SS7 has vulnerabilities which can allow attackers to intercept yo
 But essentially, someone can sit between your phone and the phone company and intercept all voice communication and SMS, and get your location, without either side knowing that they're doing it.
 
 ???+ comment "Presenter's Comment"
-    There are methods you can use to detect if these vulnerabilities are being exploited. But unless you actually look for them, you wouldn't know that they're being exploited.
+	There are methods you can use to detect if these vulnerabilities are being exploited. But unless you actually look for them, you wouldn't know that they're being exploited.
 
 This isn't just a theoretical attack either, this has actually been exploited in the real world. In [May 2017](https://thehackernews.com/2017/05/ss7-vulnerability-bank-hacking.html), O2 (a mobile provider in Europe) confirmed that SS7 vulnerabilities had been used and exploited to bypass two-factor authentication in order to withdraw money from bank accounts.
 
@@ -1002,7 +999,7 @@ There are even ones that are low profile, which you can just always keep plugged
 Much more convenient than 6 digit codes.
 
 ???+ comment "Presenter's Comment"
-    It's worth noting that you sacrifice a little bit of security by using the ones which are always plugged in. In that if your laptop is stolen by an attacker, they also have your two-factor key. But as with most things, it will depend on your threat model. U2F keys primarily defend against malware-based attacks, or attacks where an attacker was able to steal your password. For the majority of folks, having one always plugged in and ready to tap isn't going to be a severe downgrade in security posture.
+	It's worth noting that you sacrifice a little bit of security by using the ones which are always plugged in. In that if your laptop is stolen by an attacker, they also have your two-factor key. But as with most things, it will depend on your threat model. U2F keys primarily defend against malware-based attacks, or attacks where an attacker was able to steal your password. For the majority of folks, having one always plugged in and ready to tap isn't going to be a severe downgrade in security posture.
 
 ---
 
@@ -1128,12 +1125,12 @@ Photos on badges are like the "from" address in emails. Just because it looks co
 Case in point, my _real_ company ID badge says my name is that of our CEO, Jennifer Tejada. This isn't just a sticker I've put over the badge either (which would also work to be honest), this is a real plastic card.
 
 ???+ comment "Presenter's Comment"
-    I may have had access to our actual badge printer for a little while.
+	I may have had access to our actual badge printer for a little while.
 
 You can print whatever you want on these badges, so just because someone is walking around with one that looks correct and the photo matches them, it doesn't mean you should ignore them if they're doing something sketchy. If someone is sitting at your friends desk and using their computer and it's not your friend, don't ignore that just because they have a badge. Come and tell security straight away!
 
 ???+ warning "Redacted Content"
-    This slide was changed from the one originally presented to use Pagey as the image and to change the color we use for our badges. Originally it was my real badge. I'd rather not end up like that [LifeLock CEO](https://www.wired.com/2010/05/lifelock-identity-theft/) so figured it should at least be a bit harder to impersonate me than just printing this slide onto a badge and putting on an over-the-top British accent.
+	This slide was changed from the one originally presented to use Pagey as the image and to change the color we use for our badges. Originally it was my real badge. I'd rather not end up like that [LifeLock CEO](https://www.wired.com/2010/05/lifelock-identity-theft/) so figured it should at least be a bit harder to impersonate me than just printing this slide onto a badge and putting on an over-the-top British accent.
 
 ---
 
@@ -1163,7 +1160,7 @@ _097. Keysy RFID duplicator. [Reference](http://tinylabs.io/store/)_
 You definitely couldn't just spend say, $40, on an RFID duplicator like [this one here](http://tinylabs.io/store/), and clone your ID badge to a writeable RFID card and then get into the office with it. Definitely not possible.
 
 ???+ comment "Presenter's Comment"
-    At this point I showed folks my work badge cloned to both a key fob and a writable RFID card.
+	At this point I showed folks my work badge cloned to both a key fob and a writable RFID card.
 
 ---
 
@@ -1225,12 +1222,12 @@ _102. Door bypass with can of compressed air. [Reference](https://www.youtube.co
 So what if we don't have a badge, don't want to set off an alarm, but we still want to get through our doors? You've probably noticed that our doors have sensors on our side of them, so that when you walk up to the door from the inside they'll open for you. There's a little sensor at the top, where maybe a little red light turns on and the door clicks open.
 
 ???+ comment "Presenter's Comment"
-    At this point I held up a [compressed air duster](https://www.amazon.com/Falcon-Compressed-Disposable-Cleaning-DPSXL4T/dp/B002ZB6LZA). You've probably seen them around your own offices, mainly used to clean keyboards and things like that.
+	At this point I held up a [compressed air duster](https://www.amazon.com/Falcon-Compressed-Disposable-Cleaning-DPSXL4T/dp/B002ZB6LZA). You've probably seen them around your own offices, mainly used to clean keyboards and things like that.
 
 Have you ever seen these before around the office? Little cans of compressed air to clean keyboards. Have you ever tried turning them upside down when you spray them?
 
 ???+ comment "Presenter's Comment"
-    I held it upside down and sprayed it towards the ceiling (making sure to avoid any smoke detectors).
+	I held it upside down and sprayed it towards the ceiling (making sure to avoid any smoke detectors).
 
 It shoots out a cloudy jet of very cold air. This will open most of those door sensors from the other side. You can just put the nozzle in the gap between the doors, or even underneath the door, spray it for a second and the sensor will trigger and the door will open. You don't look too out of place walking around an office with a keyboard cleaner either, as demonstrated by the fact I was walking around with this can earlier today and just like with my "100% secure" legit looking ID badge, no one really took any notice.
 
@@ -1313,7 +1310,7 @@ _110. Lockpicks are legal (mostly). [Reference](https://toool.us/laws.html#CA)_
 A lot of people seem to think you need a license to use lockpicks, that you need some sort of locksmith license. Not true, they're perfectly legal in most places.
 
 ???+ comment "Presenter's Comment"
-    I'm not a lawyer, this is not legal advice, please don't go and start using lockpicks on things just because someone on the internet said it was OK.
+	I'm not a lawyer, this is not legal advice, please don't go and start using lockpicks on things just because someone on the internet said it was OK.
 
 ---
 
@@ -1380,7 +1377,7 @@ So when you have the correct key, all of those pins line up along the shear line
 You may also notice that there's a number on the key here, you'll sometimes see this on your own keys. That's called the "bitting code", and is a numerical representation of the pattern on the key. So if I have that number, I can copy your key. If you look at your house keys for example, they'll probably have a 6 digit bitting code on them, that's basically the code to get into your house.
 
 ???+ comment "Presenter's Comment"
-    It's true that you will need to know the brand of key too (Schlage, Kwikset, etc), but there are only so many and they're easy to identify at a quick glance once you know what to look for.
+	It's true that you will need to know the brand of key too (Schlage, Kwikset, etc), but there are only so many and they're easy to identify at a quick glance once you know what to look for.
 
 So it's a good idea not to leave your keys out where someone can take a photo of them. Even if I don't quite get the pattern in my photo, or the angle is wrong, if I can get that number then that's all I'll really need.
 
@@ -1478,12 +1475,12 @@ _136. Once all are done, the lock will open._
 When all the pins are stuck above the shear line, the plug will turn and the lock will open (thanks to the pressure being applied with the tension wrench). You've just picked a lock!
 
 ???+ comment "Presenter's Comment"
-    I did a quick live demo of this using a lock to demonstrate that you can do it from feel alone in about a second with some types of locks.
+	I did a quick live demo of this using a lock to demonstrate that you can do it from feel alone in about a second with some types of locks.
 
 It can be very easy to do, and great if you like puzzles. Each lock is a new challenge. So feel free to come up to me afterwards if you want to play with various locks and picks to try it out for yourself. I have big chunky locks, transparent locks, various different picks and so on. I'll think you'll be amazed at how easy it is.
 
 ???+ comment "Presenter's Comment"
-    You can also [view the full animation of the lockpicking section (20MB GIF)](/slides/for_everyone_part_ii/animations/full_lockpicking_example.gif).
+	You can also [view the full animation of the lockpicking section (20MB GIF)](/slides/for_everyone_part_ii/animations/full_lockpicking_example.gif).
 
 ---
 
@@ -1588,7 +1585,7 @@ _143. General data._
 We have three different flavours of data at PagerDuty, the first is **General Data**. This is anything intentionally available to the public. Our bog standard data that you can share freely with anyone. Ironically this slide isn't classified as public due to the internal wiki link.
 
 ???+ warning "Redacted Content"
-    When originally presented, these slides all contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version. If you were to give this training in your own organization, we encourage you to provide links to your own documentation where employees can find more information.
+	When originally presented, these slides all contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version. If you were to give this training in your own organization, we encourage you to provide links to your own documentation where employees can find more information.
 
 ---
 
@@ -1823,7 +1820,7 @@ You'd think there's be a standard format for these questionnaires, so you can pr
 So this takes a long time and it can be a few weeks before we've been able to properly respond to the questions. When the customer comes back with followup questions, it adds even more time as we need to then justify why we do things the way we do, which may go counter to how they do things. For example, a lot of financial institutions ask why we don't force password rotations every 90 days for our staff, and we then have to spend time justifying why we don't do that, etc.
 
 ???+ comment "Presenter's Comment"
-    The reason we don't force password rotations on a timed schedule is because it's considered a bad practice by modern standards. For example, it's specifically recommended against by both [NIST](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecretver) and [NCSC](https://www.ncsc.gov.uk/collection/passwords). Users are more likely to chose a password that's a minor variation on the previous one, rather than unique secure passwords each time. One of the arguments for forced rotations used to be that it limited the window of opportunity for an attacker to use stolen credentials, but most attackers will use a password straight away so it's not really a solid argument any more. We force the rotation of passwords under only one circumstance, which is whenever they're suspected of being compromised, as recommended in [NIST Special Publication 800-63B (§10.2.1)](https://pages.nist.gov/800-63-3/sp800-63b.html).
+	The reason we don't force password rotations on a timed schedule is because it's considered a bad practice by modern standards. For example, it's specifically recommended against by both [NIST](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecretver) and [NCSC](https://www.ncsc.gov.uk/collection/passwords). Users are more likely to chose a password that's a minor variation on the previous one, rather than unique secure passwords each time. One of the arguments for forced rotations used to be that it limited the window of opportunity for an attacker to use stolen credentials, but most attackers will use a password straight away so it's not really a solid argument any more. We force the rotation of passwords under only one circumstance, which is whenever they're suspected of being compromised, as recommended in [NIST Special Publication 800-63B (§10.2.1)](https://pages.nist.gov/800-63-3/sp800-63b.html).
 
 ---
 
@@ -1962,7 +1959,7 @@ So that's everything I had today. Yes, I always need to get a Starship Troopers 
 _174-177. Redacted slides._
 
 ???+ warning "Redacted Content"
-    These slides gave an overview of how folks can reach the security team, links to our internal wiki pages, Slack rooms, and details on when we run office hours.
+	These slides gave an overview of how folks can reach the security team, links to our internal wiki pages, Slack rooms, and details on when we run office hours.
 
 ---
 
@@ -2020,7 +2017,7 @@ If anyone wants to come and play with software-defined radio, lockpicks, or comp
 Finally, I'll open it up to any questions.
 
 ???+ comment "Presenter's Comment"
-    If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
+	If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
 
 ---
 
@@ -2030,14 +2027,14 @@ Finally, I'll open it up to any questions.
 _183. Image credits._
 
 ???+ info "Information"
-    Here are the credits for all the images used throughout this training.
+	Here are the credits for all the images used throughout this training.
 
 ---
 
 !!!question "Spotted a Problem?"
-    Security is hard, and we're not perfect. There may be mistakes or misunderstandings in this training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
+	Security is hard, and we're not perfect. There may be mistakes or misunderstandings in this training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
 
 
-*[GDPR]: General Data Protection Regulation
-*[2FA]: Two-Factor Authentication
-*[SOC]: Service Organization Control
+\*[GDPR]: General Data Protection Regulation
+\*[2FA]: Two-Factor Authentication
+\*[SOC]: Service Organization Control
