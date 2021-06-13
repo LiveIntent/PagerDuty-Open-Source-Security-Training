@@ -1,5 +1,5 @@
 Title:
-Lesson 1 | Introduction to PagerDuty Security Awareness Training
+Lesson 1 | Introduction to PagerDuty Security Awareness Training - Part 2
 
 ---
 
