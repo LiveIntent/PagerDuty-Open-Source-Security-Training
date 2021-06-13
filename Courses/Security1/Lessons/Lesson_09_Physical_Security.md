@@ -160,7 +160,7 @@ This is a high-urgency pageable situation. So if you spot your stolen device at 
 ---
 
 Lesson Scenario:
-What do you do when you leave your computert?
+What do you do when you leave your computer?
 
 - <input type="checkbox"> `Power it down`
 - <input type="checkbox"> `Do nothing`

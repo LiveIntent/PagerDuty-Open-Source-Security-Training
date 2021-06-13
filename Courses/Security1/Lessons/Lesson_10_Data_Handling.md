@@ -6,15 +6,19 @@ Lesson 10 | Data Handling
 
 Lesson Notes:
 :dart: Personally identifiable information (PII) is information that can identify a person in context.
-:dart: Be mindful of how you handle all data, especially PII.
+:dart: Be mindful of how you handle all types of data, especially PII.
 
 ---
 
 Lesson Content:
 
-Physical security is security that's designed to protect our office, personnel, and equipment.
+This is any information that can be used to identify a single person in context. By that I mean, it's no good just to be able to tell that certain data belongs to a single human, you have to be able to identify that particular human out of all the others that exist.
 
+We have some basic guidelines when it comes to personal information. First of all, don't discuss company information in public. Don't look at information you shouldn't. All company devices should be encrypted by default.
 
+How we handle data depends on what type of data it is. The takeaway from all of this is that you should be mindful of how you handle data. Treat customer data as you would want your own data to be treated. 
+
+If you’re not sure how to treat certain data, just ask 
 
 ---
 
@@ -43,11 +47,11 @@ This is any information that can be used to identify a single person in context.
 <input type="checkbox" id="121" /><label for="121">![121](../slides/for_everyone/for_everyone.121.jpeg)</label>
 _121. Basic Guidelines._
 
-We have some basic guidelines when it comes to personal information at PagerDuty. First of all, don't discuss company information in public. The number of times I overhear conversations out in the world from folks at other companies discussing things they really shouldn't be is astounding. Please don't do the same.
+We have some basic guidelines when it comes to personal information. First of all, don't discuss company information in public. The number of times I overhear conversations out in the world from folks at other companies discussing things they really shouldn't be is astounding. Please don't do the same.
 
 Don't look at information you shouldn't. Let's say you come across a list of employees and their SSN's. That's pretty bad, and is something we want to know about. Don't just scroll through the data and keep it to yourself. Let us know immediately so we can do something about it. Just like with stolen devices, you won't get into trouble for accessing something you shouldn't have access to if it was an honest mistake. But if you look at that information and don't tell anyone, then later we find out you accessed it, that's going to cause problems.
 
-All company devices are encrypted by default when you get them. Don't turn this off. We give you administrative access to your laptops because we want you to have the ability to do whatever you need with them to get your job done. Turning off encryption is not one of them.
+All company devices should be encrypted by default. Don't turn this off. We give you administrative access to your laptops because we want you to have the ability to do whatever you need with them to get your job done. Turning off encryption is not one of them.
 
 Finally, we need to be careful with company data. What is company data you might ask.
 
@@ -73,7 +77,7 @@ We have three distinct types of data at PagerDuty.
 * *Business data* is anything used to operate our business. Examples would be our employee list, payroll information, etc.
 * *Customer data* is any data provided to us by the customer.
 
-Customer data is by far the most valuable and protected data we have at PagerDuty, and is subject to our most stringent security rules.
+Customer data is by far the most valuable and protected data, and is subject to our most stringent security rules.
 
 ---
 
@@ -84,40 +88,18 @@ _124. Data handling._
 
 How we handle data depends on what type of data it is. For example, general data does not need to be encrypted, as it's considered public. All other types of data should always be encrypted in transit and at rest however.
 
-You can view a more detailed description of our data handling policies on the wiki.
-
-???+ warning "Redacted Content"
-	When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
-
----
-
-### Wiki Page Classifications
-
-<input type="checkbox" id="125" /><label for="125">![125](../slides/for_everyone/for_everyone.125.jpeg)</label>
-_125. Wiki page classifications.._
-
-Speaking of the wiki, you will notice that every link in the security wiki has a coloured label next to it which identifies which classification that particular link or file is subject to, and how it can be disseminated.
-
-* *Public* can be shared with anyone.
-* *Restricted* is only to be shared with customers who are under an NDA.
-* *Internal only* are not to be shared with anyone outside of PagerDuty.
-
-If any link does not have a classification, it is to always be considered internal only.
-
-You'll also notice that these classifications exactly match the ones used for these slides!
-
 ---
 
 ### Personal Devices
 
 <input type="checkbox" id="126" /><label for="126">![126](../slides/for_everyone/for_everyone.126.jpeg)</label>
-_126. No PagerDuty data on personal devices._
+_126. No company data on personal devices._
 
 When it comes to handling data, it's important to make sure that certain data never leaves our secured environments.
 
-We do not allow any PagerDuty data to be stored on your personal devices. This means you do not clone a PagerDuty git repository to your personal device, and you do not download sales contracts or employee lists to your personal devices.
+We do not allow any company data to be stored on your personal devices. This means you do not clone a company git repository to your personal device, and you do not download sales contracts or employee lists to your personal devices.
 
-This does not mean you can't check your email from your phone. Any website or hosted platform is perfectly fine to access from your personal devices. You should never be downloading and storing anything on your phone that is PagerDuty related however.
+This does not mean you can't check your email from your phone. Any website or hosted platform is perfectly fine to access from your personal devices. You should never be downloading and storing anything on your phone that is company related however.
 
 If you're unsure what counts as a hosted platform, just ask us!
 
@@ -125,14 +107,14 @@ This is also why it's important for you to let us know if your personal device i
 
 ---
 
-### PagerDuty Devices
+### Company Devices
 
 <input type="checkbox" id="127" /><label for="127">![127](../slides/for_everyone/for_everyone.127.jpeg)</label>
-_127. No customer data on PagerDuty devices._
+_127. No customer data on company devices._
 
-Likewise, you should never store customer data, even on PagerDuty devices! Customer data is never to leave our production environment under any circumstances.
+Likewise, you should never store customer data, even on company devices! Customer data is never to leave our production environment under any circumstances.
 
-That means you do not download parts of our production database to your PagerDuty laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we  lose those abilities.
+That means you do not download parts of our production database to your company laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we  lose those abilities.
 
 We have analytics mechanisms available to you in our production environment to run these types of things. If you need something different or special set up for a specific project, please let us know and we're more than happy to guide and help you set that up.
 
@@ -150,14 +132,14 @@ If you’re not sure how to treat certain data, just ask us! Maybe it’s a case
 ---
 
 Lesson Scenario:
-What do you do when you leave your computert?
+What is personally identifiable information (PII)?
 
-- <input type="checkbox"> `Power it down`
-- <input type="checkbox"> `Do nothing`
-- <input type="checkbox"> `Lock it`
-- <input type="checkbox"> `Always have it with you`
+- <input type="checkbox"> `Public data`
+- <input type="checkbox"> `Any information that can be used to identify a single person in context`
+- <input type="checkbox"> `Data about personal finances`
+- <input type="checkbox"> `Data about healthcare services deliverd to an individual`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>Always lock your computer when you leave it. This is especially important when working remotely.
+	<blockquote><p>PII is any information that can be used to identify a single person in context. It is the most sensitive kind of data.
 </p></blockquote> 
