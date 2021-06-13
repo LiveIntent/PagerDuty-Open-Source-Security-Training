@@ -266,24 +266,14 @@ Of course, I'm talking about _this_ Jennifer Tejada. By far and away the most ph
 
 ---
 
-### Unique Phishing Attempts
-
-<input type="checkbox" id="020" /><label for="020">![020](../slides/redacted.jpeg)</label>
-_020-021. Unique phishing attempts reported to us._
-
-???+ warning "Redacted Content"
-	Two slides were redacted here. They showed time-based graphs of the number of phishing attacks we detected last year, and then how many of them were from folks pretending to be our CEO. The figures on the graphs are considered internal-only information, and so these slides have been redacted.
-
----
-
 ### Half of Phishing Emails
 
 <input type="checkbox" id="022" /><label for="022">![022](/slides/for_everyone_part_ii/for_everyone_part_ii.022.jpeg)</label>
 _022. Over half of phishing emails claim to be from the CEO._
 
-Over half of our phishing emails claim to be from Jenn. And yes, I did Photoshop a ski mask onto Jenn here. If I didn't get fired for the last slide, maybe this one will do it.
+Over half of our phishing emails claim to be from the CEO.
 
-That's a pretty big thing if 50% of our phishing emails are claiming to be from the CEO. Hopefully what you take away from this is that if you think you've got an email from Jenn, you probably didn't. It's not just Jenn either, the rest of the phishing emails usually end up being someone from our exec team or legal counsel.
+That's a pretty big thing if 50% of our phishing emails are claiming to be from the CEO. Hopefully what you take away from this is that if you think you've got an email from the CEO, you probably didn't. It's not just the CEO either, the rest of the phishing emails usually end up being someone from our exec team or legal counsel.
 
 So if you get an email from any of our execs that you're not expecting, it's highly likely to be a phishing attack.
 
@@ -315,9 +305,6 @@ People are going to be doing more research before launching these attacks, they'
 _025. A phishing email we received._
 
 So we're going to look at a much more targeted email now. This was an email sent to an employee in our London office and I love it because it has an example of pretty much every red flag and technique that phishing scammers love to use. It's almost as if they knew I was doing this training soon and wanted to give me a great single example of everything.
-
-???+ warning "Redacted Content"
-	Sensitive information from the email has been redacted with black boxes as opposed to redacting the entire slides. The redacted content is the name of the employee this email was sent to, and the name of legal counsel. All other information remains unaltered.
 
 ---
 
@@ -453,45 +440,6 @@ Bottom line with all of this is that if you're suspicious of emails, please send
 Even if you're 100% confident it is a phishing email, don't just delete it, please do send it to us. Even though you've spotted it, others in the company may have received it and not spotted it. If you let us know straight away we have a chance to delete it from everyone's inbox before anyone even has a chance to click any links inside it.
 
 We'd rather get 300 duplicate reports than no report at all. So don't be afraid to bombard us with emails of any phishing that you get, even if you're not 100% sure it is phishing.
-
----
-
-### Reporting Phishing
-
-<input type="checkbox" id="035" /><label for="035">![035](/slides/for_everyone_part_ii/for_everyone_part_ii.035.jpeg)</label>
-_035. Reporting phishing._
-
-This is all documented on the wiki, so I'm going to go through this pretty quickly, but to report phishing to us please don't just forward the email. If you do, we're just going to reply with a link to the wiki and ask you to follow these instructions anyway.
-
-???+ warning "Redacted Content"
-	Links to our internal wiki have been redacted from these slides with a black box. No other information was altered.
-
----
-
-### Reporting Phishing (2)
-
-<input type="checkbox" id="036" /><label for="036">![036](/slides/for_everyone_part_ii/for_everyone_part_ii.036.jpeg)</label>
-_036. Reporting phishing._
-
-Instead we need some hidden information from the email in order to block it properly. To do that you click the arrow in the corner and select "Show Original".
-
----
-
-### Reporting Phishing (3)
-
-<input type="checkbox" id="037" /><label for="037">![037](/slides/for_everyone_part_ii/for_everyone_part_ii.037.jpeg)</label>
-_037. Reporting phishing._
-
-It pops up with a new screen. Click the big blue "Copy to clipboard" button.
-
----
-
-### Reporting Phishing (4)
-
-<input type="checkbox" id="038" /><label for="038">![038](/slides/for_everyone_part_ii/for_everyone_part_ii.038.jpeg)</label>
-_038. Reporting Phishing._
-
-Then write a new email to the security team and paste in the contents. No need to add any introductory sentence or even a subject, we'll know that you're reporting phishing when we get the email.
 
 ---
 
