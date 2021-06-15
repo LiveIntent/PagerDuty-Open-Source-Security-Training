@@ -1,6 +1,6 @@
 
 Title:
-Lesson 9 | Physical Security
+Lesson 8 | Physical Security
 
 ---
 

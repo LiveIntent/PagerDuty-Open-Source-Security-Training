@@ -1,6 +1,6 @@
 
 Title:
-Lesson 8 | More than Passwords
+Lesson 7 | More than Passwords
 
 ---
 
@@ -127,14 +127,6 @@ Some password managers let you store the two-factor secrets with the passwords. 
 
 This all applies to backup codes too. Typically you should just print those off and put them somewhere safe. They're your absolute failsafe.
 
----
-
-### Yubikeys
-
-<input type="checkbox" id="105" /><label for="105">![105](../slides/for_everyone/for_everyone.105.jpeg)</label>
-_105. Yubikeys._
-
-We use Yubikeys for the most part, they're a little USB device with a touch sensitive contact on one side. You just plug it in and touch the button to verify the "something you have" factor. The majority of folks find this to be the most convenient two-factor method we offer, although you're welcome to use any of the other two-factor methods available to you if you prefer those. The only one we don't allow is SMS, since there are some security issues with it. But if you prefer to use the 6 digit code from Google Authenticator, you're more than welcome to use those.
 
 ---
 

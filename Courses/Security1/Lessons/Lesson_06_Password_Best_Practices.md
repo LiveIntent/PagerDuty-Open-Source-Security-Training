@@ -1,6 +1,6 @@
 
 Title:
-Lesson 7 | Passwords Best Practices
+Lesson 6 | Passwords Best Practices
 
 ---
 
