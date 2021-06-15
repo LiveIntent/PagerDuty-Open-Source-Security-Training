@@ -93,19 +93,6 @@ Likewise, if you're following someone through a door and they ask you to tap you
 
 ---
 
-### Building Keycards
-
-<input type="checkbox" id="113" /><label for="113">![113](../slides/for_everyone/for_everyone.113.jpeg)</label>
-_113. Building Keycards._
-
-Speaking of keycards, please keep them with you at all times. Don't leave them at your desk. You've no doubt noticed that keycards are required on all doors that access the building.
-
-As we grow as a company, we're probably going to need to start putting photos on the keycards too. Although I personally question the effectiveness of that, since most people don't look at name badges anyway. Also we want to make sure not to put the company name on the keycard, otherwise it gives away where the keycard can be used when it gets lost. It'd be like putting your home address on your house key.
-
-I started a hackday a while back to make our keycards nicer, but never followed through. Who knows what they'll eventually look like.
-
----
-
 ### Building Security
 
 <input type="checkbox" id="114" /><label for="114">![114](../slides/for_everyone/for_everyone.114.jpeg)</label>
