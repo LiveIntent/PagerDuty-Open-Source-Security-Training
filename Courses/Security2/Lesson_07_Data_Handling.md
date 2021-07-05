@@ -4,8 +4,8 @@ Lesson 7 | Data Handling
 ---
 
 Lesson Notes:
-:dart: Intended Audience: All employees, regardless of function.
-:dart: Intended Frequency: The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face.
+:dart: Always understand the type of data you are handing.
+:dart: Only store, export, and share files using approved tools and processes.
 
 ---
 
@@ -39,9 +39,6 @@ Data is very important. Any kind of data loss or data leakage can be very damagi
 _143. General data._
 
 We have three different flavours of data at PagerDuty, the first is **General Data**. This is anything intentionally available to the public. Our bog standard data that you can share freely with anyone. Ironically this slide isn't classified as public due to the internal wiki link.
-
-???+ warning "Redacted Content"
-When originally presented, these slides all contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version. If you were to give this training in your own organization, we encourage you to provide links to your own documentation where employees can find more information.
 
 ---
 
@@ -222,14 +219,14 @@ I should point out a caveat for support teams when you want to share files. It's
 ---
 
 Lesson Scenario:
-What is security theater?
+What is the most sensitive type of data?
 
-- <input type="checkbox"> `This is a production house in London focused on digital forensic stories.`
-- <input type="checkbox"> `This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. `
-- <input type="checkbox"> `Similar to broadway, these are high quality theatrical productions focused on cybersecurity.`
-- <input type="checkbox"> `As a security exercise, this is where small groups act out real world security scenarios.`
+- <input type="checkbox"> `Business data`
+- <input type="checkbox"> `Customer data`
+- <input type="checkbox"> `General data`
+- <input type="checkbox"> `All data is the same`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>Security theater is purely for show and does not improve security.
+	<blockquote><p>Customer data is the most sensitive type of data.
 </p></blockquote>
