@@ -3,22 +3,24 @@ Lesson 1 | Identity
 ---
 
 Lesson Notes:
-:dart: Intended Audience: All employees, regardless of function.
-:dart: Intended Frequency: The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face.
+:dart: Keep locked doors closed.
+:dart: Always lock your computer.
 
 ---
 
 Lesson Content:
 
+Summary advice on physical security and identity:
 
+* Don't let people piggyback or tailgate your entry into our offices.
+* If you're suspicious of someone, please report it to us.
+* Use locks, but remember they only keep honest people out.
+* Do lock your computers when you're not at your desk. (You can even get apps that do it for you, they detect when you walk away with your phone and lock your computer for you, so that could be worth looking in to).
+* If you lose anything, even if you think you just misplaced it and it wasn't necessarily stolen, please still let us know. We can always re-activate things later if you end up finding them.
 
 ---
 
 External resources:
-
-
-
----
 
 ### Identity
 
@@ -228,9 +230,6 @@ Lockpicks aren't as hard to use as you might think and desk drawers can be prett
 _110. Lockpicks are legal (mostly). [Reference]()_
 
 A lot of people seem to think you need a license to use lockpicks, that you need some sort of locksmith license. Not true, they're perfectly legal in most places.
-
-???+ comment "Presenter's Comment"
-I'm not a lawyer, this is not legal advice, please don't go and start using lockpicks on things just because someone on the internet said it was OK.
 
 ---
 
@@ -488,14 +487,14 @@ So that was a lot of information on identity and physical security. I hope you l
 ---
 
 Lesson Scenario:
-What is security theater?
+What is true of physical security?
 
-- <input type="checkbox"> `This is a production house in London focused on digital forensic stories.`
-- <input type="checkbox"> `This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. `
-- <input type="checkbox"> `Similar to broadway, these are high quality theatrical productions focused on cybersecurity.`
-- <input type="checkbox"> `As a security exercise, this is where small groups act out real world security scenarios.`
+- <input type="checkbox"> `Never lock your computer when you walk away.`
+- <input type="checkbox"> `Locking doors is pointless because locks are easy to pick.`
+- <input type="checkbox"> `Report suspicsious people you see.`
+- <input type="checkbox"> `Just replace lost computers, no need to report them`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>Security theater is purely for show and does not improve security.
+	<blockquote><p>Always report anything suspicious you see in the office.
 </p></blockquote>
