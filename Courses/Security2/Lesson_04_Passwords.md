@@ -1,5 +1,5 @@
 Title:
-Lesson 1 | Introduction to PagerDuty Security Awareness Training
+Lesson 4 | Passwords
 
 ---
 
@@ -11,18 +11,7 @@ Lesson Notes:
 
 Lesson Content:
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. The training is divided into 5 sections:
-1. Social engineering
-2. Passwords
-3. Physical Security
-4. Data Handling
-5. Compliance
 
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
-
-There's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. 
-
-Importantly, we never want to fake security. Faking security leads us down a dark path, and will give us a false sense of security. 
 
 ---
 

@@ -4,14 +4,24 @@ Lesson 3 | Phishing
 ---
 
 Lesson Notes:
-:dart: Intended Audience: All employees, regardless of function.
-:dart: Intended Frequency: The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face.
+:dart: Phishing is a super common form of attack that usually fakes emails from the CEO or other executives.
+:dart: There are telltale signs in phishing emails to look for and, if you at all suspicious, report it to your manager or security team.
 
 ---
 
 Lesson Content:
 
-Phishing, a form of social engineering most commonly done over email, is incredibly common type of attack.
+Phishing, a form of social engineering most commonly done over email, is incredibly common type of attack. Phishing is still the easiest attack someone can launch against us.
+
+Over half of our phishing emails claim to be from the CEO. So if you get an email from any of our execs that you're not expecting, it's highly likely to be a phishing attack.
+
+Some things to look for in emails:
+
+* Always check the "from" address in emails.
+* Forcing or limiting language will weed out about 20% of the phishing emails we get.
+* If there's plenty of grammar or spelling mistakes, take that as a sign to look at the email more closely.
+
+If you have any suspicion that an email could be phishing report it to your manager or security team. You can also verify people on another channel if you're not sure it's really them. If someone contacts you via email and you're not sure it's them, reach out on Slack and say "Hey, did you send this?", or call them on the phone and ask.
 
 ---
 
@@ -227,14 +237,14 @@ And send emails to the security team if you're even a little suspicious and we'l
 ---
 
 Lesson Scenario:
-What is security theater?
+What things should make you suspicious of phishing emails?
 
-- <input type="checkbox"> `This is a production house in London focused on digital forensic stories.`
-- <input type="checkbox"> `This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. `
-- <input type="checkbox"> `Similar to broadway, these are high quality theatrical productions focused on cybersecurity.`
-- <input type="checkbox"> `As a security exercise, this is where small groups act out real world security scenarios.`
+- <input type="checkbox"> `Forcing or limiting language`
+- <input type="checkbox"> `Strange "from" addresses`
+- <input type="checkbox"> `Spelling or grammar errors`
+- <input type="checkbox"> `All of the above`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>Security theater is purely for show and does not improve security.
+	<blockquote><p>All of the above are red flags for phishing emails.
 </p></blockquote>
