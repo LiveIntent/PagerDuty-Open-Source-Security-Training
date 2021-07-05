@@ -1,159 +1,204 @@
 Title:
-Lesson 1 | Introduction to PagerDuty Security Awareness Training
+Lesson 8 | Compliance
 
 ---
 
 Lesson Notes:
-:dart: Intended Audience: All employees, regardless of function.
-:dart: Intended Frequency: The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face.
+:dart: SOC 2 is a report with standardized controls that we can use to validate our security to the market.
+:dart: GDPR grants specific rights on all EU-citizen data. 
 
 ---
 
 Lesson Content:
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. The training is divided into 5 sections:
-1. Social engineering
-2. Passwords
-3. Physical Security
-4. Data Handling
-5. Compliance
+SOC is a type of certification companies go through in order to prove to their customers that they practice what they preach when it comes to security, and that they follow security best practices. It stands for "Service Organization Control"... I don't know what it means either. But it's a standard within the industry.
 
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
+A SOC2 report shows that we've been independently vetted by auditors that came onsite to validate we do what we say we do from a security point of view, and aren't just saying it for the sake of appearances. It's all done by independent external auditors, so you can't fake it.
 
-There's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. 
+GDPR is important. We have to get consent to use customer's data. We have to appoint a Data Protection Officer. Customers have the right to access their data whenever they want. They have a right to get that data deleted. They need to be able to extract data and move it to a competitor if they want, and on and on.
 
-Importantly, we never want to fake security. Faking security leads us down a dark path, and will give us a false sense of security. 
+And the penalties are huge. It's 20 million Euros, or 4% of your annual global turnover, whichever is higher. 
 
 ---
 
 External resources:
 
-### Introduction
+### Socks
 
-<input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
-_001. "Security Training for Everyone, February 2018"_
+_<input type="checkbox" id="160" /><label for="160">![]()</label>_
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can.
-
----
-
-### Goal
-
-<input type="checkbox" id="002" /><label for="002">![002](../slides/for_everyone/for_everyone.002.jpeg)</label>
-_002. Goal of the training._
-
-Why have I brought you all here today? What's the point of all this?
-
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
-
-Despite our best efforts, security can't have eyes everywhere. We rely on all of you to help us spot security issues and let us know about them.
+For our final topic of the day, let's talk about socks. Yes, we have company socks, they're very comfortable. But that's not the type of socks I'm going to talk about.
 
 ---
 
-### Our Job
+### SOC2 Type 1
 
-<input type="checkbox" id="007" /><label for="007">![007](../slides/for_everyone/for_everyone.007.jpeg)</label>
-_007. Our job as a security team._
+<input type="checkbox" id="161" /><label for="161">![]()</label>
+_161. SOC2 Type 1. [Reference]()_
 
-Why does a security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your life harder.
+Good news, [we are SOC 2 Type 1 compliant]()!
 
-We're not here to be a bottleneck either, you'll notice that user access reviews don't go through the security team, and we don't have to sign-off on everything security related. Teams are trusted to make their own decisions (within reason).
+What does that mean exactly? SOC is a type of certification companies go through in order to prove to their customers that they practice what they preach when it comes to security, and that they follow security best practices. It stands for "Service Organization Control"... I don't know what it means either. But it's a standard within the industry.
 
----
-
-### Question
-
-<input type="checkbox" id="009" /><label for="009">![009](../slides/for_everyone/for_everyone.009.jpeg)</label>
-_009. Bike locks._
-
-Now a quick question to get things rolling. Let's say you're the healthy type, and you like to cycle around the city. _(As you can probably tell from my physique, I am not one of these types)_. You are somewhere around the streets of San Francisco, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you chose?
-
-Hopefully you've realised that both of these answers are absurd and not going to work. Using no lock leaves you with no security at all and your bike won't be there when you return, whereas using 100 locks will leave your bike very secure, but you'll need to take the day off in order to lock and unlock it.
+Some of you have probably heard about all the SOC work we've been doing over the last year and wondering what it's all about and why it's important. You may not get an insight into all the processes that go on behind the scenes, so I thought I'd give you a sneak peak at what usually happens when a customer wants to use PagerDuty.
 
 ---
 
-### Security vs Convenience
+### Sales Process
 
-<input type="checkbox" id="010" /><label for="010">![010](../slides/for_everyone/for_everyone.010.jpeg)</label>
-_010. Security vs convenience._
+<input type="checkbox" id="162" /><label for="162">![]()</label>
+_162. Sales process without compliance._
 
-The point I'm trying to make is that there's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. If you get a bunch of people in a room and ask them if they want to be secure, they'll say yes. But given the choice between being secure and having convenience, most folks opt for convenience.
+The customer will come to us and ask us about security. We tell them that we're secure, but they come back saying "We don't believe you. Please fill out this billion page questionnaire". These questionnaires will contain really far reaching and in-depth questions like,
 
----
+> What is the name of your company?
 
-### Be Secure, But Usable
+and deeply relevant questions such as,
 
-<input type="checkbox" id="011" /><label for="011">![011](../slides/for_everyone/for_everyone.011.jpeg)</label>
-_011. Be secure, but usable._
+> What is your business continuity plan in the event of a global pandemic?
 
-Our job is to strike a good balance between the options. We want to make sure that our products and services, and as an office environment, is both secure and usable. Our goal is not to add friction to your day-to-day jobs, but we can't sit entirely at the convenience end of the scale either. So while we may force you into following certain procedures, please know that it's not because we like annoying you, but it's because we don't really have a choice.
+Not joking by the way, those are genuine questions we get on these vendor security questionnaires from customers. A global pandemic? Really?! I'm going to be home and hiding. Or I'll work remote that day.
 
----
+So then of course, we get frustrated that we have to spend a week answering these obtuse and barely relevant questions, only for the customer to come back with a huge number of followup questions asking things like why we don't use a firewall appliance in our data center. Now we have to spend more time to explain that we don't have a data center and describe what AWS is and so on. Basically the process takes a really long time and gets extremely frustrating for everyone involved. The security team, the sales team, the customer, everyone.
 
-### No Faking
+You'd think there's be a standard format for these questionnaires, so you can provide your answers once and share them with everyone. And there is! Except there are 20-30 different standards and everyone seems to use a different one or a different version. And some just send you a spreadsheet to fill in.
 
-<input type="checkbox" id="012" /><label for="012">![012](../slides/for_everyone/for_everyone.012.jpeg)</label>
-_012. No faking._
+So this takes a long time and it can be a few weeks before we've been able to properly respond to the questions. When the customer comes back with followup questions, it adds even more time as we need to then justify why we do things the way we do, which may go counter to how they do things. For example, a lot of financial institutions ask why we don't force password rotations every 90 days for our staff, and we then have to spend time justifying why we don't do that, etc.
 
-Importantly, we never want to fake security. Putting a sign saying you have a burglar alarm on your front lawn when really you don't might deter a few criminals, but anyone who really wants to steal something will just ignore it anyway.
-
----
-
-### Faking is the Path to the Dark Side
-
-<input type="checkbox" id="013" /><label for="013">![013](../slides/for_everyone/for_everyone.013.jpeg)</label>
-_013. Yoda, dropping some knowledge on fake security._
-
-Faking security leads us down a dark path, and will give us a false sense of security. There are multiple ways to fake security. Some terms you may have heard of are "Security Through Obscurity", where the secrecy of the implementation is being relied upon. Imagine a padlock manufacturer coming out with a padlock they say is unbreakable. You want to look inside to see how it works, but they say "No no no, you can't do that, that would give away the secret. You're not allowed to look inside!". Criminals, of course, being well known for following the rules.
-
-Another term you may have heard of is "Security Theatre"...
+???+ comment "Presenter's Comment"
+The reason we don't force password rotations on a timed schedule is because it's considered a bad practice by modern standards. For example, it's specifically recommended against by both [NIST]()(https://pages.nist.gov/800-63-3/sp800-63b.html#memsecretver) and [NCSC]()(https://www.ncsc.gov.uk/collection/passwords). Users are more likely to chose a password that's a minor variation on the previous one, rather than unique secure passwords each time. One of the arguments for forced rotations used to be that it limited the window of opportunity for an attacker to use stolen credentials, but most attackers will use a password straight away so it's not really a solid argument any more. We force the rotation of passwords under only one circumstance, which is whenever they're suspected of being compromised, as recommended in [NIST Special Publication 800-63B (§10.2.1)]()(https://pages.nist.gov/800-63-3/sp800-63b.html).
 
 ---
 
-### Security Theater
+### Sales Process With Compliance
 
-<input type="checkbox" id="014" /><label for="014">![014](../slides/for_everyone/for_everyone.014.jpeg)</label>
-_014. What is security theater? [Reference](https://en.wikipedia.org/wiki/Security_theater)_
+<input type="checkbox" id="163" /><label for="163">![]()</label>
+_163. Sales process with compliance._
 
-This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. A lot of people hold up the TSA as an example of this, but I want to use the TSA as another example of where bad security came to bite them.
+Well, with SOC2, the process becomes much easier! We just give them our SOC2 report and the customer asks where they sign. Simple!
 
-A "backdoor" is another type of fake security. This refers to when there's a supposedly secret method of bypassing the security of something, typically only given to a few people.
+OK, so that's a bit of a dramatization. As is probably clear, I don't work in sales. But you get the idea. Having SOC2 certification greatly speeds up the efficiency of our sales process, and builds a lot more trust with customers.
 
----
-
-### TSA Baggage Locks
-
-<input type="checkbox" id="015" /><label for="015">![015](../slides/for_everyone/for_everyone.015.jpeg)</label>
-_015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/)_
-
-You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA also has master keys to unlock it. The article included a photo of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
+A SOC2 report shows that we've been independently vetted by auditors that came onsite to validate we do what we say we do from a security point of view, and aren't just saying it for the sake of appearances. It's all done by independent external auditors, so you can't fake it.
 
 ---
 
-### 3D Print TSA Master Keys
+### Type 1 vs Type 2
 
-<input type="checkbox" id="016" /><label for="016">![016](../slides/for_everyone/for_everyone.016.jpeg)</label>
-_016. Print your own TSA master key from the comfort of your own home. [Reference](https://github.com/Xyl2k/TSA-Travel-Sentry-master-keys/)_
+<input type="checkbox" id="164" /><label for="164">![]()</label>
+_164. Type 1 vs Type 2._
 
-Yep, you can now 3D print your own TSA master keys in the comfort of your own home.
+I mentioned earlier that we have a Type 1 report. There are actually two types of SOC2 report you can have, a Type 1 (sometimes "Type I") and a Type 2 (sometimes "Type II").
 
-Any security provided by these locks are now ineffective. You might still deter a few folks, but anyone who's determined to get in your bags will now have a much easier time of doing it.
+The one we have at the time of this presentation is Type 1, which essentially asks "Did we do what we said we did at a particular point in time". So an auditor came onsite, looked at all the things we do, and evaluated all the evidence we provided, and as long as we did all of those things at that particular point in time, we got the compliance.
 
-Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modem. Google ["ARRIS modem backdoor"](https://encrypted.google.com/search?q=ARRIS+modem+backdoor) if you want to read about one example.
+That's all well and good, but what customers really want to know is can we do all these things continuously. It's no good having strong security practices on the day of an audit if you then just turn around and do things insecurely the very next day.
 
-Hopefully you're starting to see why faking security is a bad thing, and something we want to stay away from.
+That's where the Type 2 report comes in. That's asking "Do you do all these things continuously for six months" (there can be other durations, it doesn't need to be six months, but that's the standard). So auditors come onsite for six months, and make sure we do everything we say we do every single day and that it's not just for show. As you can imagine, this one is a bit harder to achieve, but it's the one that most customers want.
+
+At this point in time, we have our Type 1 report, which no exceptions noted, and we're currently in the middle of our audit for the Type 2 report. We can't promise a date for that report to customers yet, but you're welcome to tell customers that we're in the middle of the audit if they ask.
+
+---
+
+### Controls
+
+<input type="checkbox" id="165" /><label for="165">![]()</label>
+_165. What are controls?_
+
+I've mentioned "controls" a few times throughout this talk. At last when I started looking into this stuff I had no idea what a "control" was, so I figured I'd try and define it for you.
+
+From my experience, a control is just a fancy word for "this is a description of something we say we do from a security point of view". So you can see why it's shortened.
+
+For example, one of our controls might be "We encrypt all information in transit".
+
+---
+
+### Follow Controls
+
+<input type="checkbox" id="166" /><label for="166">![]()</label>
+_166. We must follow all controls._
+
+The idea is that we have to follow all our controls. We can't say we do something and then not do it. That will flag up in the report, and we can't hide a certain bit of the report. Then every customer is going to see that we say we do something but really don't. Which obviously wouldn't reflect very well on us.
+
+---
+
+### Provide Evidence
+
+<input type="checkbox" id="167" /><label for="167">![]()</label>
+_167. We must provide evidence we follow our controls._
+
+Importantly we have to provide evidence to the auditors that we follow all our controls. They're not just going to take our word for it. For example, one of our controls is that all of our employees go through annual security training.
+
+We have to provide evidence to prove this. So when you answer the quiz with the colour and animal, which last year was Blue and Llama, the auditors will want to see that. And yes, for our Type 1 report our auditor really did go and check that everyone replied with "blue" and "llama" and that we had 100% coverage of all staff.
+
+---
+
+### Six Months
+
+<input type="checkbox" id="168" /><label for="168">![]()</label>
+_168. We have six months to comply._
+
+And we have six months to comply with all these controls. But that's just for the audit, we need to always be following our controls at all times, whether we're in an audit period or not. Otherwise what's the point?
+
+So don't think that this compliance stuff is just a one time thing, and that once we've passed the test we can just forget everything and go out partying. There may be partying, but we will always need to keep up our controls.
+
+So enough about SOC2...
+
+---
+
+### What Happened With GDPR
+
+<input type="checkbox" id="169" /><label for="169">![]()</label>
+_169. What happened with GDPR?_
+
+...I know you're all sitting there thinking "Whatever happened with that GDPR thing from last year?"
+
+No one? Just me then.
+
+---
+
+### GDPR Still A Thing
+
+<input type="checkbox" id="170" /><label for="170">![]()</label>
+_170. GDPR is still a thing._
+
+I'm once again required to tell you that GDPR is still a thing.
+
+It stands for General Data Protection Regulation. It is in effect now, as of last year, and it's not just some imaginary thing. We've had requests from customers to delete their data per GDPR and so on.
+
+---
+
+### GDPR
+
+<input type="checkbox" id="171" /><label for="171">![]()</label>
+_171. GDPR. [Reference]()_
+
+There are so many things involved in GDPR though, and I'm not going to go through them all. I'm just going to show you this really cute animated slide that I spent far too long on.
+
+We have to get consent to use customer's data. We have to appoint a Data Protection Officer. Customers have the right to access their data whenever they want. They have a right to get that data deleted. They need to be able to extract data and move it to a competitor if they want, and on and on.
+
+And the penalties are huge. It's 20 million Euros, or 4% of your annual global turnover, whichever is higher. So y'know, that's a lot of coin.
+
+---
+
+### Pagey's Summary - Compliance
+
+<input type="checkbox" id="172" /><label for="172">![]()</label>
+_172. Pagey's summary of compliance._
+
+Bottom line here, our second SOC2 audit is underway right now. It's going to make our sales process much smoother. It's very important. And so is GDPR I guess... No, of course I'm kidding, GDPR is very important too.
 
 ---
 
 Lesson Scenario:
-What is security theater?
+What is accurate of SOC 2?
 
-- <input type="checkbox"> `This is a production house in London focused on digital forensic stories.`
-- <input type="checkbox"> `This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. `
-- <input type="checkbox"> `Similar to broadway, these are high quality theatrical productions focused on cybersecurity.`
-- <input type="checkbox"> `As a security exercise, this is where small groups act out real world security scenarios.`
+- <input type="checkbox"> `It is antiquated and being replaced by GDPR`
+- <input type="checkbox"> `It is primarily for internal use`
+- <input type="checkbox"> `It is performed by the internal audit team`
+- <input type="checkbox"> `It is used to validate security to the market`
 
 <div class="reveal-answer">
 	<button class="button">Reveal Answer</button>
-	<blockquote><p>Security theater is purely for show and does not improve security.
+	<blockquote><p>SOC 2 is a standardized report, performed by an approved external auditor, and is use to validate security.
 </p></blockquote>
