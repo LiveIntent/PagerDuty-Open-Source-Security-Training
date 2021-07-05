@@ -1,5 +1,5 @@
 Title:
-Lesson 1 | Introduction to PagerDuty Security Awareness Training
+Lesson 7 | Data Handling
 
 ---
 
@@ -11,137 +11,213 @@ Lesson Notes:
 
 Lesson Content:
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. The training is divided into 5 sections:
-1. Social engineering
-2. Passwords
-3. Physical Security
-4. Data Handling
-5. Compliance
+A quick recap on data handing,
 
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
-
-There's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. 
-
-Importantly, we never want to fake security. Faking security leads us down a dark path, and will give us a false sense of security. 
+* Make sure you know the classification of any data you handle. If you're not sure, assume it's customer data until you find out otherwise.
+* Don't move data between systems.
+* Don't discuss company info in public
+* Don't bypass our security controls.
+* If you need to share files, please use approved tools for internal and external sharing.
 
 ---
 
 External resources:
 
-### Introduction
+### Data
 
-<input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
-_001. "Security Training for Everyone, February 2018"_
+_<input type="checkbox" id="142" /><label for="142">![]()</label>_
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can.
+The next section is all about data, and brace yourselves for lots of Data from Star Trek puns. I'm not sorry.
 
----
-
-### Goal
-
-<input type="checkbox" id="002" /><label for="002">![002](../slides/for_everyone/for_everyone.002.jpeg)</label>
-_002. Goal of the training._
-
-Why have I brought you all here today? What's the point of all this?
-
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
-
-Despite our best efforts, security can't have eyes everywhere. We rely on all of you to help us spot security issues and let us know about them.
+Data is very important. Any kind of data loss or data leakage can be very damaging and embarrassing.
 
 ---
 
-### Our Job
+### General Data
 
-<input type="checkbox" id="007" /><label for="007">![007](../slides/for_everyone/for_everyone.007.jpeg)</label>
-_007. Our job as a security team._
+<input type="checkbox" id="143" /><label for="143">![]()</label>
+_143. General data._
 
-Why does a security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your life harder.
+We have three different flavours of data at PagerDuty, the first is **General Data**. This is anything intentionally available to the public. Our bog standard data that you can share freely with anyone. Ironically this slide isn't classified as public due to the internal wiki link.
 
-We're not here to be a bottleneck either, you'll notice that user access reviews don't go through the security team, and we don't have to sign-off on everything security related. Teams are trusted to make their own decisions (within reason).
-
----
-
-### Question
-
-<input type="checkbox" id="009" /><label for="009">![009](../slides/for_everyone/for_everyone.009.jpeg)</label>
-_009. Bike locks._
-
-Now a quick question to get things rolling. Let's say you're the healthy type, and you like to cycle around the city. _(As you can probably tell from my physique, I am not one of these types)_. You are somewhere around the streets of San Francisco, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you chose?
-
-Hopefully you've realised that both of these answers are absurd and not going to work. Using no lock leaves you with no security at all and your bike won't be there when you return, whereas using 100 locks will leave your bike very secure, but you'll need to take the day off in order to lock and unlock it.
+???+ warning "Redacted Content"
+When originally presented, these slides all contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version. If you were to give this training in your own organization, we encourage you to provide links to your own documentation where employees can find more information.
 
 ---
 
-### Security vs Convenience
+### Business Data
 
-<input type="checkbox" id="010" /><label for="010">![010](../slides/for_everyone/for_everyone.010.jpeg)</label>
-_010. Security vs convenience._
+<input type="checkbox" id="144" /><label for="144">![]()</label>
+_144. Business data._
 
-The point I'm trying to make is that there's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. If you get a bunch of people in a room and ask them if they want to be secure, they'll say yes. But given the choice between being secure and having convenience, most folks opt for convenience.
-
----
-
-### Be Secure, But Usable
-
-<input type="checkbox" id="011" /><label for="011">![011](../slides/for_everyone/for_everyone.011.jpeg)</label>
-_011. Be secure, but usable._
-
-Our job is to strike a good balance between the options. We want to make sure that our products and services, and as an office environment, is both secure and usable. Our goal is not to add friction to your day-to-day jobs, but we can't sit entirely at the convenience end of the scale either. So while we may force you into following certain procedures, please know that it's not because we like annoying you, but it's because we don't really have a choice.
+Then we have **Business Data** which is anything used to operate the business. Employee payroll, lists of social security numbers, things like that.
 
 ---
 
-### No Faking
+### Customer Data
 
-<input type="checkbox" id="012" /><label for="012">![012](../slides/for_everyone/for_everyone.012.jpeg)</label>
-_012. No faking._
+<input type="checkbox" id="145" /><label for="145">![]()</label>
+_145. Customer data._
 
-Importantly, we never want to fake security. Putting a sign saying you have a burglar alarm on your front lawn when really you don't might deter a few criminals, but anyone who really wants to steal something will just ignore it anyway.
+And the finally, our most protected asset is **Customer Data**. This is anything that the customer gives us.
 
----
-
-### Faking is the Path to the Dark Side
-
-<input type="checkbox" id="013" /><label for="013">![013](../slides/for_everyone/for_everyone.013.jpeg)</label>
-_013. Yoda, dropping some knowledge on fake security._
-
-Faking security leads us down a dark path, and will give us a false sense of security. There are multiple ways to fake security. Some terms you may have heard of are "Security Through Obscurity", where the secrecy of the implementation is being relied upon. Imagine a padlock manufacturer coming out with a padlock they say is unbreakable. You want to look inside to see how it works, but they say "No no no, you can't do that, that would give away the secret. You're not allowed to look inside!". Criminals, of course, being well known for following the rules.
-
-Another term you may have heard of is "Security Theatre"...
+It's worth noting that even though it's called "Customer" data, a user doesn't have to be a paying customer of our service for their data to be classified as such. Customer Data is any data given to us by a user of our product, whether they're a paying user, a trial user, or a prospect reaching out to ask questions.
 
 ---
 
-### Security Theater
+### Data Handling Policies
 
-<input type="checkbox" id="014" /><label for="014">![014](../slides/for_everyone/for_everyone.014.jpeg)</label>
-_014. What is security theater? [Reference](https://en.wikipedia.org/wiki/Security_theater)_
+<input type="checkbox" id="146" /><label for="146">![]()</label>
+_146. Follow our data handling policies._
 
-This is where you spend time and effort on things which merely give the _appearance_ of improved security, without actually providing it. A lot of people hold up the TSA as an example of this, but I want to use the TSA as another example of where bad security came to bite them.
+Please please please follow all our data handling policies.
 
-A "backdoor" is another type of fake security. This refers to when there's a supposedly secret method of bypassing the security of something, typically only given to a few people.
+You have all agreed to follow these policies when you signed our employee handbook. If you don't know what our policies are, then you should go and read them today, because you have legally agreed to follow them and signed documents saying as much. Hopefully that's not a surprise to anyone.
 
----
+If you have any questions about our policies, or something isn't clear in them (or even worse, you find contradictory information), please let us know. If there's a case that's not covered by our policies, we want to know about it. If you find our policies too restrictive and want to understand the reasonings behind them, or have suggestions for how to change them, we want to know that too.
 
-### TSA Baggage Locks
-
-<input type="checkbox" id="015" /><label for="015">![015](../slides/for_everyone/for_everyone.015.jpeg)</label>
-_015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/)_
-
-You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA also has master keys to unlock it. The article included a photo of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
+The official handbook version can be a bit wordy and difficult to parse, so we've tried to make the internal wiki version a more plain English description.
 
 ---
 
-### 3D Print TSA Master Keys
+### Data Handling Pricing Plan
 
-<input type="checkbox" id="016" /><label for="016">![016](../slides/for_everyone/for_everyone.016.jpeg)</label>
-_016. Print your own TSA master key from the comfort of your own home. [Reference](https://github.com/Xyl2k/TSA-Travel-Sentry-master-keys/)_
+<input type="checkbox" id="147" /><label for="147">![]()</label>
+_147. Our data handling pricing plan._
 
-Yep, you can now 3D print your own TSA master keys in the comfort of your own home.
+I'm not going to just read a wiki page to you right now, so I'll present it quickly here in a format that might be a bit more familiar to you if you've ever seen our pricing page.
 
-Any security provided by these locks are now ineffective. You might still deter a few folks, but anyone who's determined to get in your bags will now have a much easier time of doing it.
+We have our **General** pricing plan, where you can access information, store it, and share it widely with anyone.
 
-Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modem. Google ["ARRIS modem backdoor"](https://encrypted.google.com/search?q=ARRIS+modem+backdoor) if you want to read about one example.
+We have our **Business Data** plan, only $29 per user per month. This has a lot more protections in place, as we require things like encryption and privacy controls.
 
-Hopefully you're starting to see why faking security is a bad thing, and something we want to stay away from.
+And then we have our most popular plan, the **Customer Data** plan. Unfortunately this plan can be a bit more expensive, anywhere up to about $23 million if we violate GDPR, or if we were to lost or leak any customer data. So as you can imagine, we have a few more restrictions in place there. So please please please protect our customer data.
+
+If you're not sure what type of data something is, please don't hesitate to ask us. It's also a best practice to treat something as if it were customer data until you know for sure that it's not.
+
+---
+
+### Copying Data
+
+<input type="checkbox" id="148" /><label for="148">![]()</label>
+_148. Don't copy data to other systems._
+
+A couple of things you can do to help protect our data. First, don't copy data to other systems. If you're on a production system, don't copy that information to staging or sandbox/developer/test accounts. This would involve a lot of cleanup and stress for everyone involved.
+
+Definitely don't copy data to systems we don't own or control. This is especially important in AWS, where our infrastructure has a lot of controls and auditing in place, we have lots of automated checks and the ability to perform forensics and so on. If you were to move data outside of those controls, we lose that visibility.
+
+---
+
+### Data Protections
+
+<input type="checkbox" id="149" /><label for="149">![]()</label>
+_149. Don't turn off data protections._
+
+Also don't turn off any of our data protection mechanisms. We run various tools and agents on our hosts which are all doing important things, please don't just turn them off. We have all sorts of audit tools running where if data gets leaked, we're able to see exactly who did it and where the data got transferred to and so on.
+
+In most cases you won't even be able to turn off the controls, especially in AWS where even administrators can't turn these features off. But there's always going to be at least some folks with that level of access, so please be sure to use your permissions wisely. If anything, please think of the poor Security team on-call engineer, who will get paged immediately if you turn any of our protections off.
+
+---
+
+### Be Mindful
+
+<input type="checkbox" id="150" /><label for="150">![]()</label>
+_150. Be mindful of how you treat data._
+
+The key takeaway here is to always be mindful of how you treat data. Treat data as if it were your own. If you're logged in as an administrator somewhere, it can be easy to misclick something and then you've suddenly leaked data somewhere you shouldn't have.
+
+If you do that, don't be embarrassed to come to us. We will always help you to fix it.
+
+But things like that are why we practice something called the ["Principle of least privilege"](), where every user only has the permissions needed to perform their job, and no more. For example, an engineer on our pipeline team doesn't need the ability to create S3 buckets in AWS, so they won't have that permission granted to them.
+
+This is also why most engineers will have the ability to use "read only" roles for their services, for when you need to debug things. It allows you to view the data you need, without worrying about an accidental click doing something wrong. It's always a good idea to login with the lowest set of permissions you need to do your current task. For example, I have the ability to login as an administrator to our AWS accounts, but I rarely login with those permissions. If I'm just trying to look up some logs, then I would typically log in with "read only" permissions instead.
+
+---
+
+### Discussing in Public
+
+<input type="checkbox" id="151" /><label for="151">![]()</label>
+_151. Don't discuss company information in public._
+
+Another way to protect our data is to not discuss company information in public. The number of times I would be out at bars of restaurants and overhear people talking about things they shouldn't be, their company's financial information, or big deals they just signed, and so on. A lot of information that shouldn't be discussed. Please don't do that with any PagerDuty information.
+
+---
+
+### Insider Trading
+
+<input type="checkbox" id="152" /><label for="152">![]()</label>
+_152. Familiarize yourself with our insider trading policy._
+
+Similarly, familiarize yourself with our insider trading policy. We have one of those now. It's not the most thrilling read, but it is very important. So please do make sure you know what's going on, as you really don't want to get into trouble with the SEC, the IRS, or any other three letter agency. Remember that very few people at PagerDuty are authorized to share certain information publicly. If you're not sure whether you're one of those people, then you're probably not.
+
+---
+
+### Shouldn't Have Access
+
+<input type="checkbox" id="153" /><label for="153">![]()</label>
+_153. Report things you shouldn't have access to._
+
+If you find something you don't think you should have access to, like a big bag of cash marked "employee wages", or a list of employee payroll information and so on, please report it to us promptly.
+
+You're not going to get into trouble for accessing something you shouldn't have, since our access controls shouldn't have let you in in the first place, so it's our fault not yours. You might get into murky waters if you don't tell us though, as we may find out months later and start performing forensics. We'd see that you accessed the data and didn't tell anyone, which makes it look like you were stealing the information and trying to hide it.
+
+So please do let us know if it happens, and we'll be able to help you out. **You're never going to get into trouble for reporting security issues to us. Ever.**
+
+---
+
+### Another Company
+
+<input type="checkbox" id="154" /><label for="154">![]()</label>
+_154. How would you want someone else to treat your data?_
+
+It all really comes down to, how would you want your personal information to be treated by another company? How would you want Facebook to treat your data? How would you want Dropbox to treat your data? and so on. Treat our customers data the same way, because they're people too. It shouldn't surprise you to learn that our customers want us to treat their data appropriately.
+
+---
+
+### Data Sharing
+
+<input type="checkbox" id="155" /><label for="155">![]()</label>
+_155. What about sharing data?_
+
+A question we get a lot is "How do I share data?" How do I share data with someone else in the company?, how do I share data with a third-party vendor?, how do I share data with a customer when they request data from their account?, and things like that.
+
+---
+
+### Restrict Access
+
+<input type="checkbox" id="157" /><label for="157">![]()</label>
+_157. Restrict access to only those who need it._
+
+And try to ensure you're restricting access only to the people who need access to the file. Don't make it where anyone who knows the link can access the file. Because if that link gets leaked everyone's going to be able to view it. If someone tweets that link out and it'll be copied very quickly.
+
+---
+
+### Confirm Account
+
+<input type="checkbox" id="158" /><label for="158">![]()</label>
+_158. Confirm which account you're on._
+
+And please confirm which account you're on. I have embarrassingly emailed a customer from my personal email account by mistake before. So you know, anyone can do this, please don't fall into the trap of thinking "Well, I'd never do something that silly!".
+
+So please verify which account you're on when you use these tools.
+
+One tip you can do is to use a different avatar or userpic for your personal and work accounts, or change the background theme colour and so on. Some big visual representation of which account you're on will make it much easier to not accidentally send things from the wrong account.
+
+---
+
+### Pagey's Summary - Data Handling
+
+<input type="checkbox" id="159" /><label for="159">![]()</label>
+_159. Pagey's summary of data handling._
+
+That's everything I had on data classification and handling. A quick recap from Pagey,
+
+* Make sure you know the classification of any data you handle. If you're not sure, assume it's customer data until you find out otherwise.
+* Don't move data between systems.
+* Don't discuss company info in public
+* Don't bypass our security controls.
+
+I should point out a caveat for support teams when you want to share files. It's the customer's data, if they want you to share it with them in a certain way, then they are authorized to allow you to do that. You can caution them against certain ways, but if they insist, and you've verified you are actually talking to the customer, then just make the customer happy and share the data with them however they want.
 
 ---
 
