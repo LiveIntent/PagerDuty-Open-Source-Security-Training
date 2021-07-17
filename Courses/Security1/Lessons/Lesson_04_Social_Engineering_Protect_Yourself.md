@@ -5,7 +5,7 @@ Lesson 4 | Social Engineering Protect Yourself
 
 Lesson Notes:
 :dart: Remain vigilant. Social engineering attacks are constant and dynamic.
-:dart: Social engineering is mostly about building trust.
+:dart: If in doubt, do no open the email or attachment or link.
 
 ---
 
