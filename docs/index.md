@@ -17,7 +17,7 @@ To learn more about the philosophy behind our security training program, and why
 
 Our "For Everyone" course covers a variety of general security topics relevant to all employees. It is delivered annually to all PagerDuty employees, contractors, and interns. Since 2018 we have produced a new "part" each year in order to keep the material fresh for employees who have already been through the training. The overall lessons are the same, but we dive deeper into different topics each year. Click the slides below to view the relevant course,
 
-[![Security Training For Everyone](./slides/for_everyone/for_everyone.001.jpeg)](/for_everyone)
+[![Security Training For Everyone](./for_everyone/slides/for_everyone.001.jpeg)](/for_everyone)
 [![Security Training For Everyone (Part II)](./slides/for_everyone_part_ii/for_everyone_part_ii.001.jpeg)](/for_everyone_part_ii)
 
 ## Security Training For Engineers
