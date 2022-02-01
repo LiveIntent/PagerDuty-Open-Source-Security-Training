@@ -68,7 +68,7 @@ One very important part is that we have to specify the intended purpose of all p
 
 And there are very hefty penalties for any breach of GDPR. 4% of annual global turnover, or €20 Million, whichever is greater.
 
-There are more things involved with GDPR that I’ve gone over here, such as “Consent” and “Profiling”, etc. The link at the bottom has more information if you’re interested.
+There are more things involved with GDPR that I've gone over here, such as "Consent" and "Profiling", etc. The link at the bottom has more information if you're interested.
 
 ---
 

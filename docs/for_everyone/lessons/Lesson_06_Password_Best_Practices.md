@@ -224,7 +224,7 @@ This quote from Troy Hunt explains it well. Password managers don't have to be p
 <input type="checkbox" id="094" /><label for="094">![094](../slides/for_everyone.094.jpeg)</label>
 _094. Pick a good master password._
 
-But your password manager is only as good as the master password you pick. So you need to pick a good one, and you need to memorize it. Unfortunately this is one password you can’t store in your password manager.
+But your password manager is only as good as the master password you pick. So you need to pick a good one, and you need to memorize it. Unfortunately this is one password you can't store in your password manager.
 
 ---
 
@@ -235,7 +235,7 @@ _095. Memory tips._
 
 I have some tips for memorizing a complex password that you may find useful.
 
-First of all though, make sure you generate a password based on the guidelines we’ve already talked about. It's no good having awesome passwords stored in your password manager if the master password is `letmein`.
+First of all though, make sure you generate a password based on the guidelines we've already talked about. It's no good having awesome passwords stored in your password manager if the master password is `letmein`.
 
 To have an easier time of memorizing it, try splitting it into chunks of 4 or 5 characters, like you see here. Then remember those chunks. Literally, just sit down and memorize them. You'll be amazed at how quickly you can retain the information. After about 5 minutes, stop and come back to it later, and see how much you can still remember. It'll take a few tries, but it will soon start to stick.
 

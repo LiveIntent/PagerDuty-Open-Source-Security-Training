@@ -6,7 +6,7 @@ Lesson 5 | Passwords
 
 Lesson Notes:
 :dart: Passwords are a huge part of ensuring you protect yourself online.
-:dart: Passwords are protected when stored but cracking them is easier than you’d think.
+:dart: Passwords are protected when stored but cracking them is easier than you'd think.
 
 ---
 

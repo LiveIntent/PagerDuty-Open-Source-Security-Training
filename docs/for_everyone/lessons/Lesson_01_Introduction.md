@@ -11,7 +11,7 @@ Lesson Notes:
 
 Lesson Content:
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. The training is divided into 5 sections:
+Welcome to "Security Training for Everyone". This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. The training is divided into 5 sections:
 1. Social engineering
 2. Phishing
 3. Passwords
@@ -34,7 +34,7 @@ External resources:
 <input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone.001.jpeg)</label>
 _001. "Security Training for Everyone, February 2018"_
 
-Welcome to "Security Training for Everyone”. This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can.
+Welcome to "Security Training for Everyone". This is an annual employee security training session, and is a requirement to both satisfy obligations to customers, but also to pass compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can.
 
 ---
 
@@ -56,7 +56,7 @@ Despite our best efforts, security can't have eyes everywhere. We rely on all of
 <input type="checkbox" id="007" /><label for="007">![007](../slides/for_everyone.007.jpeg)</label>
 _007. Our job as a security team._
 
-Why does a security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your life harder.
+Why does a security team even exist? Despite what you may think, we're not here to say "No" to everything, or to chastise you for doing something "wrong". We're here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We'd rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your life harder.
 
 We're not here to be a bottleneck either, you'll notice that user access reviews don't go through the security team, and we don't have to sign-off on everything security related. Teams are trusted to make their own decisions (within reason).
 
