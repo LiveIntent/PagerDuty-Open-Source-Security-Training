@@ -64,10 +64,10 @@ _050. Hashing. [Reference](https://en.wikipedia.org/wiki/Cryptographic_hash_func
 
 ---
 
-### \~\~Hashing\~\~
+### ~~Hashing~~
 
 <input type="checkbox" id="051" /><label for="051">![051](../slides/for_everyone.051.jpeg)</label>
-_051. \~\~Hashing\~\~. [Reference](https://en.wikipedia.org/wiki/Cryptographic_hash_function)_
+_051. ~~Hashing~~. [Reference](https://en.wikipedia.org/wiki/Cryptographic_hash_function)_
 
 Actually, you don't need to know the name.
 
@@ -168,8 +168,7 @@ _060. arup._
 
 We can see that this user "arup" has exactly the same password as "pumpkin22".
 
-???+ comment "Presenter's Comment"
-	This isn't always the case, there's something called "Hash Collision" which can occur. But I'm ignoring that here in order to keep things simple.
+Note: This isn't always the case, there's something called "Hash Collision" which can occur. But I'm ignoring that here in order to keep things simple.
 
 So now we can use "arup"'s password hint as an extra bit of information. So, "pumpkin", "holiday", "scary movie". Hopefully by now you've guessed that this password is `halloween`.
 
