@@ -86,8 +86,7 @@ The bottom line is that GDPR is going to lead to a lot of interesting situations
 <input type="checkbox" id="142" /><label for="142">![142](../slides/for_everyone.142.jpeg)</label>
 _142. Image credits._
 
-???+ info "Information"
-	Here are the credits for all the images used throughout this training.
+Here are the credits for all the images used throughout this training.
 
 ---
 

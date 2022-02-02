@@ -48,7 +48,7 @@ I mean security that's designed to protect our office, personnel, and equipment.
 <input type="checkbox" id="109" /><label for="109">![109](../slides/for_everyone.109.jpeg)</label>
 _109. Basic Guidelines._
 
-It's very easy to lose track of who works here and who doesn't at any given time. Gone are the days where we could all fit into a single meeting room.
+It's very easy to lose track of who works here and who doesn't at any given moment. Gone are the days where we could all fit into a single meeting room.
 
 It's important to keep our office environment secure though, we don't want random folks wandering around stealing information or equipment. If you see someone you don't recognize acting suspicious, just ask questions. Introduce yourself and make a new friend, since 99% of the time it's going to be an employee you've simply not met yet.
 
@@ -70,7 +70,7 @@ If someone you don't recognize is sitting at your friends desk using their lapto
 ### Lock Your Computers!
 
 <input type="checkbox" id="111" /><label for="111">![111](../slides/for_everyone.111.jpeg)</label>
-_111. Lock Your Computers!._
+_111. Lock Your Computers!_
 
 Please lock your computers when you're not with them. This is even more important when working remote. It literally only takes a few seconds for someone to plug in a USB stick and they've now loaded malware on to your machine.
 
@@ -107,7 +107,7 @@ Make sure all your visitors sign in at the front desk, and have a name badge. No
 ### Laptop Stolen?!
 
 <input type="checkbox" id="115" /><label for="115">![115](../slides/for_everyone.115.jpeg)</label>
-_115. Laptop stolen?!._
+_115. Laptop stolen?!_
 
 So you're at a bar after work, you look down on the floor and see that your backpack has been stolen, and your company issued laptop was in there. It was likely stolen by someone wearing a balaclava, since we know that's what all criminals wear based on my stock image searches.
 
@@ -118,7 +118,7 @@ What do you do?
 ### Panic?
 
 <input type="checkbox" id="116" /><label for="116">![116](../slides/for_everyone.116.jpeg)</label>
-_116. Panic?._
+_116. Panic?_
 
 Your first instinct is to probably panic. That's OK, it's a natural reaction.
 
@@ -131,14 +131,14 @@ _117. Don't Panic._
 
 But don't panic. Things get stolen, it's just the world we live in. You're not going to get fired, you're not going to get into trouble.
 
-_(Unless you stole the laptop yourself, in which case, yeah.. you'll probably get into trouble)._
+_(Unless you stole the laptop yourself, in which case, yeah... you'll probably get into trouble)._
 
 ---
 
 ### Page Security
 
 <input type="checkbox" id="118" /><label for="118">![118](../slides/for_everyone.118.jpeg)</label>
-_118. Page us!._
+_118. Page us!_
 
 Message security or helpdesk at any time if you have lost or had stolen, any devices that access company information. Whether it's your company issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued.
 
