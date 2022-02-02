@@ -45,7 +45,7 @@ Finally, remember to **never click on any links in a mail you think may be phish
 <input type="checkbox" id="044" /><label for="044">![044](../slides/for_everyone.044.jpeg)</label>
 _044. You are our greatest asset!_
 
-Automatic filtering only gets us so far. It's up to all of you to be able to spot suspicious emails and send them to us. The good news is that you're already great at this! We managed to preemptively block several phishing attacks last year thanks to quick employee reports. Most were deleted from your inbox before you even read them. Don’t assume someone else has already sent us the example, do it anyway. We’d rather have 300 duplicate reports than no report at all.
+Automatic filtering only gets us so far. It's up to all of you to be able to spot suspicious emails and send them to us. The good news is that you're already great at this! We managed to preemptively block several phishing attacks last year thanks to quick employee reports. Most were deleted from your inbox before you even read them. Don't assume someone else has already sent us the example, do it anyway. We'd rather have 300 duplicate reports than no report at all.
 
 ---
 

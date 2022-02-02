@@ -94,8 +94,7 @@ One thing you wouldn't have been able to tell from my screenshot, but would if y
 
 One takeaway here is to be sure to hover over any links to see the real address they go to _before_ you click on them. Just because the text in the email says one thing, it doesn't mean that's where the actual link may go. Never click on any links in email that are even remotely suspicious. Sometimes all it takes is a click to do bad things.
 
-???+ comment "Presenter's Comment"
-	Top tip: If it’s a shortened URL with bit.ly, you can append a `+` to the URL to see where it goes without actually following it.
+Pro tip: If it's a shortened URL with bit.ly, you can append a `+` to the URL to see where it goes without actually following it.
 
 If you do accidentally click a link in a phishing email, please let us know immediately, as it can affect how we respond to the incident. Don't lie to us to save face, we're not going to ridicule you or shout at you for clicking it, we want to know so that we can properly respond to any potential exploit that could have happened.
 

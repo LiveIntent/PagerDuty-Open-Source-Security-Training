@@ -15,7 +15,7 @@ Here's a quick definition of what social engineering is. Basically it's a type o
 
 So if someone contacts you claiming to be an employee, and you've never heard of them before, verify they are who they say they are via another channel. If they email you, ping them on Slack to check (and vice versa).
 
-The term *Phishing* from "fishing for information", and generally involves receiving an email designed to trick you into giving up information.
+The term *Phishing* is from "fishing for information", and generally involves receiving an email designed to trick you into giving up information.
 
 Social engineering isn't just about phishing, even though that's the focus in this training. There are many more types of social engineering attacks we can face.
 
@@ -37,7 +37,7 @@ For those who've not heard the term before, here's a quick definition of what so
 <input type="checkbox" id="019" /><label for="019">![019](../slides/for_everyone.019.jpeg)</label>
 _019. Catch Me If You Can. [Reference](https://www.youtube.com/watch?v=iJIc16aqpO8)_
 
-If you've ever seen the movie ["Catch Me If You Can"](https://www.imdb.com/title/tt0264464/) (or read the book) you will have seen lots of examples of social engineering. "[Ferris Bueller's Day Off](https://www.imdb.com/title/tt0091042/)" is another one. If you've not seen either of those movies, I'd highly recommend giving them a watch. The link at the bottom of the slide here is to a [talk by Frank Abagnale Jr](https://www.youtube.com/watch?v=iJIc16aqpO8), the real person on which Catch Me if You Can is based. He tells the story of his exploits. It's quite entertaining and eye opening.
+If you've ever seen the movie "[Catch Me If You Can](https://www.imdb.com/title/tt0264464/)" (or read the book) you will have seen lots of examples of social engineering. "[Ferris Bueller's Day Off](https://www.imdb.com/title/tt0091042/)" is another one. If you've not seen either of those movies, I'd highly recommend giving them a watch. The link at the bottom of the slide here is to a [talk by Frank Abagnale Jr](https://www.youtube.com/watch?v=iJIc16aqpO8), the real person on which *Catch Me if You Can* is based. He tells the story of his exploits. It's quite entertaining and eye opening.
 
 ---
 
@@ -54,10 +54,10 @@ This is hard to defend against, since human nature is to want to help others. So
 
 ---
 
-### \~\~Fishing\~\~ Phishing
+### ~~Fishing~~ Phishing
 
 _<input type="checkbox" id="022" /><label for="022">![022](../slides/for_everyone.022.jpeg)</label>_
-_022. \~\~Fishing\~\~ Phishing._
+_022. ~~Fishing~~ Phishing._
 
 I'm going to focus on one particular type of social engineering attack that we get exposed to, phishing (with a P-H), and again, this is another one of my favourite stock images. The term comes from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. As we get larger as a company, we become more of a target for these types of attacks.
 

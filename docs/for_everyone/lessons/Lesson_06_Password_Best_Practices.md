@@ -89,7 +89,7 @@ Finally, your passwords are private. Never ever share them with anyone. Not your
 
 Also, you should never send your passwords over insecure channels. Don't email passwords to people, don't send them over IM, or Slack. If we need to share an initial password for you to login to a tool for the first time, we share it using a dedicated tool specifically designed for password management. If you ever accidentally post your password to somewhere that's not secure, you should consider it compromised and change it as soon as possible.
 
-And finally, we will _never_ ask you for your password, under any circumstances. It should be a giant red flag if anyone at PagerDuty ever asks for your password. Never give it out.
+And finally, we will _never_ ask you for your password, under any circumstances. It should be a giant red flag if anyone at LiveIntent ever asks for your password. Never give it out.
 
 ---
 
@@ -163,8 +163,6 @@ _089. Use a password manager. [Reference](https://1password.com/)_
 
 You need to use a tool called a "Password Manager". There are lots out there, and you've probably heard of a lot of them. "[LastPass](https://www.lastpass.com/)", "[1Password](https://1password.com/)", "[KeePass](https://keepass.info/)", etc. They each have their own pros and cons depending on how you prefer to operate. Most have browser plugins to automatically enter your passwords for you (although there have been some security issues there in the past). But they're all designed to do pretty much one thing. Store a lookup of all your usernames and passwords, protected by a single "master password", which is the one password (hey, that's the name of one of the tools) you need to remember. The idea is that it'll be the last password (hey, that's the name of another one!) you need to remember.
 
-We use 1Password here at PagerDuty, so if you can't decide on a tool, then you may as well go with that one. One quick thing to note, make sure to use a different tool or vault for your personal vs work passwords. We revoke access to the PagerDuty ones when you leave, so you don't want all your personal ones to disappear too!
-
 If there's only one thing you take away from today's training, please make it this: Using a password manager is the single most effective thing you can do to enhance your security online. Actually, maybe two-factor authentication too, we'll get to that later though.
 
 Let's talk a bit more about password managers.
@@ -178,8 +176,7 @@ _090. Password managers._
 
 Password managers are designed to remember all of your passwords for you, in a secure way. They can also generate completely random passwords for you, and you can typically change the criteria associated with this generation. So if a website doesn't let you use special symbols, you can exclude those and still get a strong password.
 
-???+ comment "Presenter's Comment"
-	Rich's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
+Rich's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
 
 But the most important feature of password managers is that they let you use a completely different password for everything, without having to worry about remembering it yourself.
 
@@ -194,7 +191,7 @@ Now, I'm not going to lie to you. Switching from using the same password everywh
 
 But it gets much easier as you get used to it, and it is so much better in the long run.
 
-I should be clear too, I'm not just advocating for you to use them for all PagerDuty related passwords, you should use one for all your personal accounts too. Amazon, your bank, etc.
+I should be clear too, I'm not just advocating for you to use them for all LiveIntent related passwords, you should use one for all your personal accounts too. Amazon, your bank, etc.
 
 
 ---
@@ -204,7 +201,7 @@ I should be clear too, I'm not just advocating for you to use them for all Pager
 <input type="checkbox" id="092" /><label for="092">![092](../slides/for_everyone.092.jpeg)</label>
 _092. Eggs in a basket._
 
-Some of you may be thinking "aren't we just putting all our eggs in one basket though? What happens if the password manager gets broken into!"
+Some of you may be thinking "aren't we just putting all our eggs in one basket though? What happens if the password manager gets broken into!?!"
 
 ---
 
@@ -224,7 +221,7 @@ This quote from Troy Hunt explains it well. Password managers don't have to be p
 <input type="checkbox" id="094" /><label for="094">![094](../slides/for_everyone.094.jpeg)</label>
 _094. Pick a good master password._
 
-But your password manager is only as good as the master password you pick. So you need to pick a good one, and you need to memorize it. Unfortunately this is one password you can’t store in your password manager.
+But your password manager is only as good as the master password you pick. So you need to pick a good one, and you need to memorize it. Unfortunately this is one password you can't store in your password manager.
 
 ---
 
@@ -235,7 +232,7 @@ _095. Memory tips._
 
 I have some tips for memorizing a complex password that you may find useful.
 
-First of all though, make sure you generate a password based on the guidelines we’ve already talked about. It's no good having awesome passwords stored in your password manager if the master password is `letmein`.
+First of all though, make sure you generate a password based on the guidelines we've already talked about. It's no good having awesome passwords stored in your password manager if the master password is `letmein`.
 
 To have an easier time of memorizing it, try splitting it into chunks of 4 or 5 characters, like you see here. Then remember those chunks. Literally, just sit down and memorize them. You'll be amazed at how quickly you can retain the information. After about 5 minutes, stop and come back to it later, and see how much you can still remember. It'll take a few tries, but it will soon start to stick.
 

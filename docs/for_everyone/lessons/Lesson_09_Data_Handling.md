@@ -18,7 +18,7 @@ We have some basic guidelines when it comes to personal information. First of al
 
 How we handle data depends on what type of data it is. The takeaway from all of this is that you should be mindful of how you handle data. Treat customer data as you would want your own data to be treated. 
 
-If you’re not sure how to treat certain data, just ask 
+If you're not sure how to treat certain data, just ask.
 
 ---
 
@@ -71,7 +71,7 @@ It's not this type of data. It's the data we store in our systems that allow us 
 <input type="checkbox" id="123" /><label for="123">![123](../slides/for_everyone.123.jpeg)</label>
 _123. Data classification._
 
-We have three distinct types of data at PagerDuty.
+We have three distinct types of data at LiveIntent.
 
 * *General Data* is anything that is _intentionally_ available to the public. The key being intentionally. If something gets leaked, it doesn't automatically become general data.
 * *Business data* is anything used to operate our business. Examples would be our employee list, payroll information, etc.
@@ -127,7 +127,7 @@ _128. Be Mindful._
 
 The takeaway from all of this is that you should be mindful of how you handle data. Treat customer data as you would want your own data to be treated. Like I said earlier, customer data is our most valuable asset, and customers are trusting us with it. Breaching that trust is unacceptable, and so we all need to make sure we follow the rules.
 
-If you’re not sure how to treat certain data, just ask us! Maybe it’s a case we hadn’t considered yet, and something we need to create a policy for.
+If you're not sure how to treat certain data, just ask us! Maybe it's a case we hadn't considered yet, and something we need to create a policy for.
 
 ---
 
