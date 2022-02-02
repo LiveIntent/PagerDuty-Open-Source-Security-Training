@@ -1,5 +1,5 @@
 Title:
-Lesson 1 | Introduction to L Security Awareness Training
+Lesson 1 | Introduction to LiveIntent Security Awareness Training
 
 ---
 
